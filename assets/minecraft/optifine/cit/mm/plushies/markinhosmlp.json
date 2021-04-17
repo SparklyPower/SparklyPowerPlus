@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/plushies/normal2",
+	"textures": {
+		"0": "./markinhosmlp"
+	}
+}
