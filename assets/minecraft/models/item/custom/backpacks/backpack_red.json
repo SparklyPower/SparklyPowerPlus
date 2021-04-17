@@ -1,5 +1,4 @@
 {
-    "__comment": "You should never, ever, see this... at all. This is used by QuickBackpack, because I'm too lazy to manually generate the files... Created by MrPowerGamerBR for Harmony",
     "parent": "item/handheld",
     "textures": {
         "layer0": "item/backpacks/red_backpack"
