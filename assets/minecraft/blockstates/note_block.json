@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "instrument=didgeridoo,note=1": { "model": "sparklypower:block/rainbow_wool" }
+  }
+}

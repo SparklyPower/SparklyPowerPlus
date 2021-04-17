@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/plushies/slim",
+	"textures": {
+		"0": "item/plushies/ynilzinha_"
+	}
+}

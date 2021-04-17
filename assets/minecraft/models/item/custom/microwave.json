@@ -1,0 +1,29 @@
+{
+    "textures": {
+        "texture": "item/guis/microwave"
+    },
+    "gui_light": "front",
+    "elements": [ 
+        {
+            "from": [ -16, -16, 32 ],
+            "to": [ 32, 32, 16 ],
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "rotation": 180, "texture": "#texture" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+            }
+        }
+    ],
+    "display": {
+        "firstperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0, 0, 0 ]
+        },
+        "gui": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 72, 0, -80 ],
+            "scale": [ 3.40, 0.4, 1.0 ]
+        }
+    }
+}
+

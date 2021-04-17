@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/plushies/normal",
+	"textures": {
+		"0": "item/plushies/alex"
+	}
+}

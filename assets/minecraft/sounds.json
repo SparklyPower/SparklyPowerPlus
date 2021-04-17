@@ -1,0 +1,245 @@
+{
+    "perfectdreams.sfx.msn": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/msn",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.jj3_shop": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/jj3_shop",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.special_stage": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/special_stage",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.heal": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/heal",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.kaneda": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/kaneda",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.shapeofyou": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/shapeofyou",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.lalala": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/lalala",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.kissthesky": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/kissthesky",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.rasputin": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/rasputin",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.crabrave": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/crabrave",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.revenge": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/revenge",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.chameiosparca": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/chameiosparca",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.whatdoyoumean": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/whatdoyoumean",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.leanon": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/leanon",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.sing_a_simple_song": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/sing_a_simple_song",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.buymode3": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/buymode3",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.errou": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/errou",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.mizeravi": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/mizeravi",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.fogo_bicho": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/fogo_bicho",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.proerd": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/proerd",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.record.dj_azeitona": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:records/dj_azeitona",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.faliceu": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/faliceu",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.microwave.open": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/microwave_open",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.microwave.button": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/microwave_button",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.microwave.spin": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/microwave_spin",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.microwave.stop": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/microwave_stop",
+                "stream" : true
+            }
+        ]
+    },
+    "perfectdreams.sfx.trashcan.open": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/trashcan_open",
+                "stream" : true
+            }
+        ]
+    }
+}

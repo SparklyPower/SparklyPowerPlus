@@ -1,0 +1,31 @@
+name: Continuous Integration
+
+# Controls when the action will run. Triggers the workflow on push or pull request.
+on: [ push ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%d%m%Y')"
+
+    - name: Compress Resource Pack
+      # This will also exclude the ".git" and ".github" folders from the Resource Pack
+      env:
+        DATE: ${{ steps.date.outputs.date }}
+      run: zip -9 -r . SparklyPowerPlus-$DATE.zip -x '*.git*'
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: SparklyPowerPlus
+        path: SparklyPowerPlus-$DATE.zip

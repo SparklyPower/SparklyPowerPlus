@@ -1,0 +1,17 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/guis/empty_cell"
+    },
+    "display": {
+        "firstperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0, 0, 0 ]
+        },
+        "gui": {
+            "scale": [ 1.1, 1.1, 1.1 ]
+        }
+    }
+}
+

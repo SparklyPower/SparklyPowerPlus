@@ -1,0 +1,22 @@
+{
+  "block.minecraft.brown_mushroom": "Maconha",
+
+  "item.minecraft.chainmail_chestplate": "Jetpack",
+
+  "item.minecraft.music_disc_13.desc": "Swedish House Mafia - Don't You Worry Child",
+  "item.minecraft.music_disc_cat.desc": "Macklemore and Ryan Lewis - White Walls",
+  "item.minecraft.music_disc_blocks.desc": "Avicii - You Make Me",
+  "item.minecraft.music_disc_chirp.desc": "Halogen - U Got That",
+  "item.minecraft.music_disc_far.desc": "Los del Río - Macarena",
+  "item.minecraft.music_disc_mall.desc": "toby fox - Asgore [Bergentrückung] (Dj Jo Remix)",
+  "item.minecraft.music_disc_mellohi.desc": "Logic - The Spotlight",
+  "item.minecraft.music_disc_stal.desc": "she - Atomic",
+  "item.minecraft.music_disc_strad.desc": "iKON - LOVE SCENARIO",
+  "item.minecraft.music_disc_ward.desc": "Fortnite Birthday Music Pack",
+  "item.minecraft.music_disc_11.desc": "Yudi - Funk do Yudi",
+  "item.minecraft.music_disc_wait.desc": "Lil Nas X - Old Town Road",
+
+  "menu.game": "\ue238\uf80c\ue23a",
+  "menu.returnToGame": "§f锈 §aReturn to SparklyPower §f锇",
+  "menu.disconnect": "§f闹 §cBye SparklyPower §f闺"
+}
