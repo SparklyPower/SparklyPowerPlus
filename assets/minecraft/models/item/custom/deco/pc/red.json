@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/deco/computer",
+	"textures": {
+		"0": "item/deco/pc/red"
+	}
+}

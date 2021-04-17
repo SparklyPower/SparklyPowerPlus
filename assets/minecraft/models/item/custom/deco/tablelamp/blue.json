@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/deco/table_lamp",
+	"textures": {
+		"0": "item/deco/lamp/small/blue"
+	}
+}

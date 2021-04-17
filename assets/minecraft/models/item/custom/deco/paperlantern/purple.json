@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/deco/paper_lantern",
+	"textures": {
+		"0": "item/deco/lamp/paper/purple"
+	}
+}
