@@ -19,26 +19,17 @@ Nós utilizamos vários recursos de outras resource packs para criar ela,
 então nada mais justo dar os devidos créditos a todos que fizeram as
 resource packs originais, não é mesmo? :)
 
-❤ MrPowerGamerBR
-✪ Dono da Loritta/SparklyPower/PerfectDreams (e a pessoa que escreveu este arquivo!)
-» https://mrpowergamerbr.com
+## MrPowerGamerBR
+* [Dono da Loritta/SparklyPower/PerfectDreams (e a pessoa que escreveu este arquivo!)](https://mrpowergamerbr.com)
 
-❤ Loritta
-✪ A mascote mais fofa que existe!
-» https://loritta.website
+## Loritta
+* [A mascote mais fofa que existe!](https://loritta.website)
 
-❤ rezoner
-✪ Happy Arcade Tune
-» https://opengameart.org/content/happy-arcade-tune
+## rezoner
+* Happy Arcade Tune](https://opengameart.org/content/happy-arcade-tune)
 
-❤ MentalSanityOff
-✪ Jump Landing Sound
-» https://opengameart.org/content/jump-landing-sound
+## MentalSanityOff
+* [Jump Landing Sound](https://opengameart.org/content/jump-landing-sound)
 
-❤ MentalSanityOff
-✪ Jump Landing Sound
-» https://opengameart.org/content/jump-landing-sound
-
-❤ AmberW
-✪ Negative Space Font
-» https://www.spigotmc.org/threads/negative-space-font-resource-pack.440952/
+## AmberW
+* [Negative Space Font](https://www.spigotmc.org/threads/negative-space-font-resource-pack.440952/)
