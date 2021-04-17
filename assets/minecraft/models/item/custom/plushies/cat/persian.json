@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/plushies/cat/ocelot",
+	"textures": {
+		"0": "item/plushies/cat/persian"
+	}
+}

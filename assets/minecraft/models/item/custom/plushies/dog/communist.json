@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/plushies/dog/wolf",
+	"textures": {
+		"0": "item/plushies/dog/communist"
+	}
+}
