@@ -38,7 +38,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -3,
             "chars": [
@@ -47,7 +47,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -4,
             "chars": [
@@ -56,7 +56,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -5,
             "chars": [
@@ -65,7 +65,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -6,
             "chars": [
@@ -74,7 +74,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -7,
             "chars": [
@@ -83,7 +83,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -8,
             "chars": [
@@ -92,7 +92,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -9,
             "chars": [
@@ -101,7 +101,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -10,
             "chars": [
@@ -110,7 +110,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -18,
             "chars": [
@@ -119,7 +119,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -34,
             "chars": [
@@ -128,7 +128,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -66,
             "chars": [
@@ -137,7 +137,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -130,
             "chars": [
@@ -146,7 +146,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -258,
             "chars": [
@@ -155,7 +155,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -514,
             "chars": [
@@ -164,7 +164,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": -1026,
             "chars": [
@@ -173,7 +173,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -65536,
             "height": -32770,
             "chars": [
@@ -182,7 +182,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 0,
             "chars": [
@@ -191,7 +191,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 1,
             "chars": [
@@ -200,7 +200,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 2,
             "chars": [
@@ -209,7 +209,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 3,
             "chars": [
@@ -218,7 +218,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 4,
             "chars": [
@@ -227,7 +227,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 5,
             "chars": [
@@ -236,7 +236,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 6,
             "chars": [
@@ -245,7 +245,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 7,
             "chars": [
@@ -254,7 +254,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 15,
             "chars": [
@@ -263,7 +263,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 31,
             "chars": [
@@ -272,7 +272,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 63,
             "chars": [
@@ -281,7 +281,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 127,
             "chars": [
@@ -290,7 +290,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 255,
             "chars": [
@@ -299,7 +299,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 511,
             "chars": [
@@ -308,7 +308,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -32768,
             "height": 1023,
             "chars": [
@@ -317,7 +317,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_split.png",
+            "file": "sparklypower:font/space/space_split.png",
             "ascent": -65536,
             "height": 32767,
             "chars": [
@@ -326,7 +326,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -3,
             "chars": [
@@ -335,7 +335,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -4,
             "chars": [
@@ -344,7 +344,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -5,
             "chars": [
@@ -353,7 +353,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -6,
             "chars": [
@@ -362,7 +362,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -7,
             "chars": [
@@ -371,7 +371,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -8,
             "chars": [
@@ -380,7 +380,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -9,
             "chars": [
@@ -389,7 +389,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -10,
             "chars": [
@@ -398,7 +398,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -18,
             "chars": [
@@ -407,7 +407,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -34,
             "chars": [
@@ -416,7 +416,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -66,
             "chars": [
@@ -425,7 +425,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -130,
             "chars": [
@@ -434,7 +434,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -258,
             "chars": [
@@ -443,7 +443,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -514,
             "chars": [
@@ -452,7 +452,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": -1026,
             "chars": [
@@ -461,7 +461,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -65536,
             "height": -32770,
             "chars": [
@@ -470,7 +470,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 0,
             "chars": [
@@ -479,7 +479,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 1,
             "chars": [
@@ -488,7 +488,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 2,
             "chars": [
@@ -497,7 +497,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 3,
             "chars": [
@@ -506,7 +506,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 4,
             "chars": [
@@ -515,7 +515,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 5,
             "chars": [
@@ -524,7 +524,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 6,
             "chars": [
@@ -533,7 +533,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 7,
             "chars": [
@@ -542,7 +542,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 15,
             "chars": [
@@ -551,7 +551,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 31,
             "chars": [
@@ -560,7 +560,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 63,
             "chars": [
@@ -569,7 +569,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 127,
             "chars": [
@@ -578,7 +578,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 255,
             "chars": [
@@ -587,7 +587,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 511,
             "chars": [
@@ -596,7 +596,7 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -32768,
             "height": 1023,
             "chars": [
@@ -605,12 +605,39 @@
         },
         {
             "type": "bitmap",
-            "file": "space:font/space_nosplit.png",
+            "file": "sparklypower:font/space/space_nosplit.png",
             "ascent": -65536,
             "height": 32767,
             "chars": [
                 "\uF830"
             ]
-        }
+        },
+        {
+            "type": "bitmap",
+            "file": "sparklypower:font/head/special.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uE000\uE00A\uE00B\uE00C\uE00D\uE001\uE002\uE003\uE004\uE005\uE006\uE007"
+            ]
+        },
+		{
+            "type": "bitmap",
+            "file": "sparklypower:font/head/staff.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uE008\uE009\uE010\uE011\uE012\uE013\uE014"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:font/extra.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uD83E\uDDE2\uD83D\uDC5F\u2020\uD83D\uDEE1"
+				]
+	     }
     ]
   }
