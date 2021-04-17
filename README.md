@@ -26,7 +26,7 @@ resource packs originais, não é mesmo? :)
 * [A mascote mais fofa que existe!](https://loritta.website)
 
 ## rezoner
-* Happy Arcade Tune](https://opengameart.org/content/happy-arcade-tune)
+* [Happy Arcade Tune](https://opengameart.org/content/happy-arcade-tune)
 
 ## MentalSanityOff
 * [Jump Landing Sound](https://opengameart.org/content/jump-landing-sound)
