@@ -1,0 +1,67 @@
+{
+    "parent": "item/generated",
+	"textures": {
+		"layer0": "items/iron_sword"
+	},
+	"elements": [
+		{
+			"__comment": "Gauntlet",
+			"from": [ 5, 0, 5 ],
+			"to": [ 11, 8, 11 ],
+			"faces": {
+				"down": { "uv": [ 3, 7, 6, 10 ], "texture": "#texture" },
+				"up": { "uv": [ 3, 0, 6, 3 ], "texture": "#texture" },
+				"north": { "uv": [ 9, 3, 12, 7 ], "texture": "#texture" },
+				"south": { "uv": [ 3, 3, 6, 7 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 3, 3, 7 ], "texture": "#texture" },
+				"east": { "uv": [ 6, 3, 9, 7 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Claws",
+			"from": [ 4.5, 8, 10 ],
+			"to": [ 11.5, 12, 10.001 ],
+			"faces": {
+				"north": { "uv": [ 11.5, 13, 15, 15 ], "texture": "#texture" },
+				"south": { "uv": [ 11.5, 13, 15, 15 ], "texture": "#texture" }
+			}
+		}
+	],
+    "display": {
+		"thirdperson_righthand": {
+			"rotation":  [ -90, 90, 0 ],
+			"translation":  [ 0, -2, -2 ],
+            "scale": [ 0.76, 0.76, 0.76 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation":  [ -90, 90, 0 ],
+			"translation":  [ 0, -2, -2 ],
+            "scale": [ 0.76, 0.76, 0.76 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 90, -45 ],
+			"translation":  [ -3, 5, 1 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 90, -45 ],
+			"translation":  [ -3, 5, 1 ],
+			"scale":  [ 0.68, 0.68, 0.68 ]
+		},
+		"ground": {
+			"rotation": [ 0, 0, 0 ],
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"fixed": {
+			"rotation":  [ 0, 180, 0 ],
+			"translation":  [ 0, 4, 0 ],
+			"scale":  [ 1.25, 1.25, 1.25 ]
+		},
+		"gui": {
+			"rotation":  [ 0, 45, 45 ],
+			"translation":  [ -3, 3, 0 ],
+			"scale":  [ 1.5, 1.5, 1.5 ]
+		}
+	}
+}

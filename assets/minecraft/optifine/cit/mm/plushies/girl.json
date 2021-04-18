@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/plushies/slim2",
+	"textures": {
+		"0": "./girl"
+	}
+}

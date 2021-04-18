@@ -25,6 +25,12 @@ resource packs originais, não é mesmo? :)
 ## Loritta
 * [A mascote mais fofa que existe!](https://loritta.website)
 
+## MarkinhosMLP
+* [Adicionou algumas texturas, modelos e fez pequenas modificações](https://twitter.com/MarkisXzK)
+
+## SixFootBlue
+* [Alguns modelos de base](https://www.curseforge.com/minecraft/texture-packs/itembound-16x)
+
 ## rezoner
 * [Happy Arcade Tune](https://opengameart.org/content/happy-arcade-tune)
 

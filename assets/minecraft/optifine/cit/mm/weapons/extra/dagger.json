@@ -1,0 +1,41 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "extra/dragon_dagger"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 4, 0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 4, 0.5],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [150, -90, 25],
+			"translation": [2.63, -0.55, 2],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"firstperson_lefthand": {
+			"rotation": [150, 90, -25],
+			"translation": [2.63, -0.55, 2],
+			"scale": [0.9, 0.9, 0.9]
+		},
+		"ground": {
+			"translation": [0, 3.75, 0],
+			"scale": [1, 1, 0.5]
+		},
+		"gui": {
+			"translation": [8, 8.25, 0],
+			"scale": [2, 2, 1]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [-8.25, 8.25, 0],
+			"scale": [2, 2, 1]
+		}
+	}
+}
