@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/deco/tv",
+	"textures": {
+		"layer0": "item/deco/tv/med"
+	}
+}
