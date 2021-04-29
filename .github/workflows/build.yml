@@ -23,9 +23,9 @@ jobs:
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
       env:
         DATE: ${{ steps.date.outputs.date }}
-      run: zip -9 -r SparklyPowerPlus-$DATE.zip . -x '*.git*'
+      run: zip -9 -r SparklyPowerPlus_$DATE.zip . -x '*.git*'
 
     - uses: actions/upload-artifact@v2
       with:
         name: SparklyPowerPlus
-        path: SparklyPowerPlus-${{ steps.date.outputs.date }}.zip
+        path: SparklyPowerPlus_${{ steps.date.outputs.date }}.zip
