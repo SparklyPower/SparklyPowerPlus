@@ -241,5 +241,23 @@
                 "stream" : true
             }
         ]
+    },
+    "sparklypower.sfx.electricity_arc": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/electricity_arc",
+                "stream" : true
+            }
+        ]
+    },
+    "sparklypower.sfx.positive_blip": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/positive_blip",
+                "stream" : true
+            }
+        ]
     }
 }
