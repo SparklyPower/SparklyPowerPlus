@@ -35,6 +35,42 @@
             "height": 10,
             "ascent": 9,
             "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:font/tags.png",
+            "chars": [
+                "\ue23c", "\ue23d", "\ue23e", "\ue23f", "\ue240", "\ue241", "\ue242", "\ue243", "\ue244", "\ue245"
+            ],
+            "height": 8,
+            "ascent": 7,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:font/staff.png",
+            "chars": [
+                "\ue246\ue247\ue248\ue249\ue24a\ue24b\ue24c\ue24d\ue24e\ue24f"
+            ],
+            "height": 8,
+            "ascent": 7,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:font/fire.png",
+            "chars": [
+                "\ue250"
+            ],
+            "height": 8,
+            "ascent": 7,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:font/staff_utils.png",
+            "chars": [
+                "\ue251\ue252"
+            ],
+            "height": 8,
+            "ascent": 7,
+            "type": "bitmap"
         }
     ]
-  }
+}

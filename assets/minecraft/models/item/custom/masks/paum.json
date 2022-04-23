@@ -1,0 +1,6 @@
+{
+    "parent": "item/custom/emojis/hat_emoji",
+    "textures": {
+        "layer0": "item/staff/paum"
+    }
+}
