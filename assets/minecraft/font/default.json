@@ -71,6 +71,80 @@
             "height": 8,
             "ascent": 7,
             "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:gui/9_slots_guis.png",
+            "chars": [
+                "\ue254"
+            ],
+            "height": 51,
+            "ascent": 23,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:gui/27_slots_guis.png",
+            "chars": [
+                "\ue256"
+            ],
+            "height": 87,
+            "ascent": 23,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:gui/36_slots_guis.png",
+            "chars": [
+                "\ue257"
+            ],
+            "height": 105,
+            "ascent": 23,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:gui/45_slots_guis.png",
+            "chars": [
+                "\ue258"
+            ],
+            "height": 123,
+            "ascent": 23,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:gui/54_slots_guis.png",
+            "chars": [
+                "\ue253\ue255\ue261"
+            ],
+            "height": 141,
+            "ascent": 23,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:gui/sparklypower.png",
+            "chars": [
+                "\ue260"
+            ],
+            "height": 10,
+            "ascent": 8,
+            "type": "bitmap"
+        },
+
+        {
+
+            "type":"bitmap",
+            "file":"space:font/space_split.png",
+            "ascent":-32768,
+            "height":-10,
+            "chars":[
+                "ꈉ"
+            ]
+        },
+        {
+            "type":"bitmap",
+            "file":"space:font/space_split.png",
+            "ascent":-32768,
+            "height":-167,
+            "chars":[
+                "陇"
+            ]
         }
     ]
 }

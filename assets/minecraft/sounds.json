@@ -259,5 +259,23 @@
                 "stream" : true
             }
         ]
+    },
+    "sparklypower.sfx.backpack.open": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/zipper_open",
+                "stream" : true
+            }
+        ]
+    },
+    "sparklypower.sfx.backpack.close": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/zipper_close",
+                "stream" : true
+            }
+        ]
     }
 }
