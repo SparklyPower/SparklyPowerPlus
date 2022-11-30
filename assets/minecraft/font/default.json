@@ -75,7 +75,7 @@
         {
             "file": "sparklypower:gui/9_slots_guis.png",
             "chars": [
-                "\ue254"
+                "\ue254\ue259",
             ],
             "height": 51,
             "ascent": 23,

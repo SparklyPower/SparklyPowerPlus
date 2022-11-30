@@ -52,6 +52,12 @@
     { "predicate": { "custom_model_data": 47 }, "model": "sparklypower:gui/correios/up" },
     { "predicate": { "custom_model_data": 48 }, "model": "sparklypower:gui/correios/down" },
     { "predicate": { "custom_model_data": 49 }, "model": "sparklypower:gui/lori_angel" },
-    { "predicate": { "custom_model_data": 50 }, "model": "sparklypower:gui/lori_demon" }
+    { "predicate": { "custom_model_data": 50 }, "model": "sparklypower:gui/lori_demon" },
+    { "predicate": { "custom_model_data": 51 }, "model": "sparklypower:item/backpack/backpack_bread" },
+    { "predicate": { "custom_model_data": 52 }, "model": "sparklypower:item/backpack/backpack_portugal" },
+    { "predicate": { "custom_model_data": 53 }, "model": "sparklypower:item/backpack/backpack_pride" },
+    { "predicate": { "custom_model_data": 54 }, "model": "sparklypower:item/backpack/backpack_maconha" },
+    { "predicate": { "custom_model_data": 55 }, "model": "sparklypower:item/backpack/backpack_coelho" },
+    { "predicate": { "custom_model_data": 56 }, "model": "sparklypower:item/backpack/backpack_axolote" }
   ]
 }
