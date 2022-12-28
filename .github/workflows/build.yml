@@ -15,6 +15,11 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: Install java2bedrock.sh dependencies
+      run: |
+        apt-get install moreutils jq imagemagick unzip zip nodejs uuid-runtime
+        npm i -g spritesheet-js
+      
     - name: Get current date
       id: date
       run: echo "::set-output name=date::$(date +'%d%m%Y')"
@@ -25,6 +30,16 @@ jobs:
         DATE: ${{ steps.date.outputs.date }}
       run: zip -9 -r SparklyPowerPlus_$DATE.zip . -x '*.git*'
 
+    - name: Download java2bedrock.sh
+      run: |
+        curl -o converter.sh https://raw.githubusercontent.com/Kas-tle/java2bedrock.sh/main/converter.sh
+        
+    - name: Convert Java Resource Pack to Bedrock
+      env:
+        DATE: ${{ steps.date.outputs.date }}
+      run: |
+        ./converter.sh SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
+        
     - uses: actions/upload-artifact@v2
       with:
         name: SparklyPowerPlus
