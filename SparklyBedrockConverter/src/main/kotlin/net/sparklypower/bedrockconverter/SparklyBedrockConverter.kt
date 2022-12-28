@@ -8,6 +8,10 @@ import java.io.File
 import javax.imageio.ImageIO
 
 fun main(args: Array<String>) {
+    for ((index, arg) in args.withIndex()) {
+        println("args[$index]: $arg")
+    }
+
     val inputPackFolder = File(args[0])
     val inputAssetsFolder = File(inputPackFolder, "assets")
     val outputPackFolder = File(args[1])
