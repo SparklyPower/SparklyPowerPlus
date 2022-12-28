@@ -25,27 +25,27 @@ fun main(args: Array<String>) {
     // ===[ NAIVE FILE REMAPPER ]===
     val fileRemap = mapOf(
         // Armor
-        "minecraft\\textures\\models\\armor\\chainmail_layer_1.png" to "textures\\models\\armor\\chain_1.png",
+        "minecraft/textures/models/armor/chainmail_layer_1.png" to "textures/models/armor/chain_1.png",
 
         // Items
-        "minecraft\\textures\\item\\chainmail_chestplate.png" to "textures\\items\\chainmail_chestplate.png",
+        "minecraft/textures/item/chainmail_chestplate.png" to "textures/items/chainmail_chestplate.png",
 
         // Signs
-        "minecraft\\textures\\entity\\signs\\oak.png" to "textures\\entity\\sign.png",
-        "minecraft\\textures\\entity\\signs\\acacia.png" to "textures\\entity\\sign_acacia.png",
-        "minecraft\\textures\\entity\\signs\\birch.png" to "textures\\entity\\sign_birch.png",
-        "minecraft\\textures\\entity\\signs\\jungle.png" to "textures\\entity\\sign_jungle.png",
-        "minecraft\\textures\\entity\\signs\\spruce.png" to "textures\\entity\\sign_spruce.png",
-        "minecraft\\textures\\entity\\signs\\crimson.png" to "textures\\entity\\sign_crimson.png",
-        "minecraft\\textures\\entity\\signs\\warped.png" to "textures\\entity\\sign_warped.png",
-        "minecraft\\textures\\entity\\signs\\dark_oak.png" to "textures\\entity\\sign_darkoak.png",
-        "minecraft\\textures\\entity\\signs\\mangrove.png" to "textures\\entity\\mangrove_sign.png",
+        "minecraft/textures/entity/signs/oak.png" to "textures/entity/sign.png",
+        "minecraft/textures/entity/signs/acacia.png" to "textures/entity/sign_acacia.png",
+        "minecraft/textures/entity/signs/birch.png" to "textures/entity/sign_birch.png",
+        "minecraft/textures/entity/signs/jungle.png" to "textures/entity/sign_jungle.png",
+        "minecraft/textures/entity/signs/spruce.png" to "textures/entity/sign_spruce.png",
+        "minecraft/textures/entity/signs/crimson.png" to "textures/entity/sign_crimson.png",
+        "minecraft/textures/entity/signs/warped.png" to "textures/entity/sign_warped.png",
+        "minecraft/textures/entity/signs/dark_oak.png" to "textures/entity/sign_darkoak.png",
+        "minecraft/textures/entity/signs/mangrove.png" to "textures/entity/mangrove_sign.png",
 
         // Blocks
-        "minecraft\\textures\\block\\brown_mushroom.png" to "textures\\blocks\\mushroom_brown.png",
+        "minecraft/textures/block/brown_mushroom.png" to "textures/blocks/mushroom_brown.png",
 
         // GUI
-        "minecraft\\textures\\gui\\icons.png" to "textures\\gui\\icons.png",
+        "minecraft/textures/gui/icons.png" to "textures/gui/icons.png",
     )
 
     // Remap files
@@ -55,7 +55,7 @@ fun main(args: Array<String>) {
     }
 
     // ===[ BASIC FONTS REMAPPER ]===
-    val javaFontsFolder = File(inputAssetsFolder, "minecraft\\textures\\font")
+    val javaFontsFolder = File(inputAssetsFolder, "minecraft/textures/font")
     val bedrockFontsFolder = File(outputPackFolder, "font")
 
     javaFontsFolder.listFiles().forEach {
@@ -72,7 +72,7 @@ fun main(args: Array<String>) {
 
     fun loadAndPasteAt(path: String, x: Int, y: Int) {
         graphics.drawImage(
-            ImageIO.read(File(inputAssetsFolder, "minecraft\\textures\\painting\\${path}.png")),
+            ImageIO.read(File(inputAssetsFolder, "minecraft/textures/painting/${path}.png")),
             x * 4,
             y * 4,
             null
@@ -111,7 +111,7 @@ fun main(args: Array<String>) {
     loadAndPasteAt("pigscene", 64, 192)
     loadAndPasteAt("pointer", 0, 192)
 
-    val bedrockPaintingsFolder = File(outputPackFolder, "textures\\painting\\")
+    val bedrockPaintingsFolder = File(outputPackFolder, "textures/painting/")
     bedrockPaintingsFolder.mkdirs()
     ImageIO.write(
         paintingSource,
@@ -121,7 +121,7 @@ fun main(args: Array<String>) {
 
     // ===[ SOUNDS REMAPPER ]===
     // Copy the definitions
-    val javaSounds = Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "minecraft\\sounds.json").readText())
+    val javaSounds = Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "minecraft/sounds.json").readText())
     val beSounds = MCBedrockSoundDefinitions(
         "1.14.0",
         javaSounds.mapValues { // it is actually the same JSON format lmao
@@ -144,5 +144,5 @@ fun main(args: Array<String>) {
     beSparklySoundsFolder.mkdirs()
 
     // Copy the sounds
-    File(inputAssetsFolder, "sparklypower\\sounds\\").copyRecursively(beSparklySoundsFolder)
+    File(inputAssetsFolder, "sparklypower/sounds/").copyRecursively(beSparklySoundsFolder)
 }
