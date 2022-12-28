@@ -82,10 +82,22 @@ jobs:
     
     - name: list files debug
       run: |
+        pwd
         ls -lh
         cd assets
+        pwd
         ls -lh
         cd minecraft
+        pwd
+        ls -lh
+        cd textures
+        pwd
+        ls -lh
+        cd models
+        pwd
+        ls -lh
+        cd armor
+        pwd
         ls -lh
 
     - name: Run SparklyBedrockConverter for the final touches for the Bedrock RP
