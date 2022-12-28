@@ -54,10 +54,12 @@ jobs:
       
     - name: Download java2bedrock.sh
       run: |
+        cd bedrock_rp
         curl -o converter.sh https://raw.githubusercontent.com/Kas-tle/java2bedrock.sh/main/converter.sh
         
     - name: list files debug
       run: |
+        cd bedrock_rp
         ls -lh
 
     - name: Convert Java Resource Pack to Bedrock
@@ -65,8 +67,9 @@ jobs:
         DATE: ${{ steps.date.outputs.date }}
       # Yes, the resource pack needs to be in the same folder as the script
       run: |
+        mv SparklyPowerPlus_$DATE.zip bedrock_rp
+        cd bedrock_rp
         chmod 777 converter.sh
-        mv ../SparklyPowerPlus_$DATE.zip .
         ./converter.sh SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
 
     - name: Grant execute permission for gradlew
@@ -81,17 +84,18 @@ jobs:
       env:
         DATE: ${{ steps.date.outputs.date }}
       run: |
-        cwd=$(pwd)
+        rootPwd=$(pwd)
+        cd bedrock_rp
+        bedrockPwd=$(pwd)
         echo "Current path is $cwd"
         cd ../SparklyBedrockConverter
-        ./gradlew run --args="../$cwd $cwd/target/unpackaged/rp"
+        ./gradlew run --args="$rootPwd $cwd/target/unpackaged/rp"
 
     - name: Compress Bedrock Resource Pack
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
       env:
         DATE: ${{ steps.date.outputs.date }}
       run: |
-        cd ..
         cd bedrock_rp
         zip -9 -r SparklyPowerPlus_$DATE.mcpack target/unpacked/rp/
 
