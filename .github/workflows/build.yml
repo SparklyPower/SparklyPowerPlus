@@ -57,6 +57,7 @@ jobs:
       run: |
         cwd=$(pwd)
         echo "Current path is $cwd"
+        ls -lh
         cd SparklyBedrockConverter
         ./gradlew run --args="$cwd $cwd/target/unpackaged/rp"
 
