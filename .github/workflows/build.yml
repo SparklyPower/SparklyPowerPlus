@@ -40,6 +40,12 @@ jobs:
         DATE: ${{ steps.date.outputs.date }}
       run: zip -9 -r SparklyPowerPlus_$DATE.zip . -x '*.git*' -x 'SparklyBedrockConverter'
 
+    # This is required because converter.sh seems to delete the "assets" folder
+    - name: Create new folder for the Bedrock Resource Pack and cd into it
+      run: |
+        mkdir bedrock_rp
+        cd bedrock_rp
+      
     - name: Download java2bedrock.sh
       run: |
         curl -o converter.sh https://raw.githubusercontent.com/Kas-tle/java2bedrock.sh/main/converter.sh
@@ -53,7 +59,7 @@ jobs:
         DATE: ${{ steps.date.outputs.date }}
       run: |
         chmod 777 converter.sh
-        ./converter.sh SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
+        ./converter.sh ../SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
 
     - name: Grant execute permission for gradlew
       run: chmod +x SparklyBedrockConverter/gradlew
@@ -69,22 +75,18 @@ jobs:
       run: |
         cwd=$(pwd)
         echo "Current path is $cwd"
-        cd SparklyBedrockConverter
-        ./gradlew run --args="$cwd $cwd/target/unpackaged/rp"
+        cd ../SparklyBedrockConverter
+        ./gradlew run --args="../$cwd $cwd/target/unpackaged/rp"
 
     - name: Compress Bedrock Resource Pack
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
       env:
         DATE: ${{ steps.date.outputs.date }}
-      run: zip -9 -r SparklyPowerPlus_$DATE.mcpack target/unpacked/rp/
-
-    - name: Convert Java Resource Pack to Bedrock
-      env:
-        DATE: ${{ steps.date.outputs.date }}
       run: |
-        chmod 777 converter.sh
-        ./converter.sh SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
-        
+        cd ..
+        cd bedrock_rp
+        zip -9 -r SparklyPowerPlus_$DATE.mcpack target/unpacked/rp/
+
     - uses: actions/upload-artifact@v2
       with:
         name: SparklyPowerPlus
@@ -93,7 +95,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: SparklyPowerPlus Bedrock
-        path: SparklyPowerPlus_${{ steps.date.outputs.date }}.mcpack
+        path: bedrock_rp/SparklyPowerPlus_${{ steps.date.outputs.date }}.mcpack
 
     - uses: actions/upload-artifact@v2
       with:
