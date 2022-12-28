@@ -48,7 +48,7 @@ jobs:
     - name: "Upload Java Resource Pack"
       uses: actions/upload-artifact@v2
       with:
-        name: SparklyPowerPlus
+        name: SparklyPowerPlus Java
         path: SparklyPowerPlus_${{ steps.date.outputs.date }}.zip
 
     # This is required because converter.sh seems to delete the "assets" folder
