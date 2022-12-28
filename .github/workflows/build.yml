@@ -20,7 +20,7 @@ jobs:
         sudo apt-get install moreutils jq imagemagick unzip zip uuid-runtime
         sudo npm install -g npm@9.2.0
         sudo npm i -g spritesheet-js
-      
+
     - name: Setup Java JDK
       uses: actions/setup-java@v1.4.3
       with:
@@ -63,6 +63,17 @@ jobs:
         DATE: ${{ steps.date.outputs.date }}
       run: zip -9 -r SparklyPowerPlus_$DATE.mcpack target/unpacked/rp/
 
+    - name: Download java2bedrock.sh
+      run: |
+        curl -o converter.sh https://raw.githubusercontent.com/Kas-tle/java2bedrock.sh/main/converter.sh
+        
+    - name: Convert Java Resource Pack to Bedrock
+      env:
+        DATE: ${{ steps.date.outputs.date }}
+      run: |
+        chmod 777 converter.sh
+        ./converter.sh SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
+        
     - uses: actions/upload-artifact@v2
       with:
         name: SparklyPowerPlus
