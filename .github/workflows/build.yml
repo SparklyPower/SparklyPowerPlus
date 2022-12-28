@@ -51,14 +51,12 @@ jobs:
       run: chmod +x SparklyBedrockConverter/gradlew
     
     - name: Run SparklyBedrockConverter for the final touches for the Bedrock RP
-      uses: gradle/gradle-build-action@v2
+      # I tried using gradle-build-action, but the "--args" were always merged into a single argument
       env:
-        # GitHub Actions has 7GBs of available RAM for workers, so let's bump it a bit up!
-        GRADLE_OPTS: -Xmx4096m -Xms4096m
-      with:
-        build-root-directory: SparklyBedrockConverter
-        arguments: |
-          run --args='. target/unpackaged/rp'
+        DATE: ${{ steps.date.outputs.date }}
+      run: |
+        cd SparklyBedrockConverter
+        ./gradlew run --args="../ ../target/unpackaged/rp"
 
     - name: Compress Bedrock Resource Pack
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
