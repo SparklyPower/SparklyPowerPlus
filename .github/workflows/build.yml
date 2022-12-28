@@ -66,10 +66,6 @@ jobs:
         DATE: ${{ steps.date.outputs.date }}
       run: zip -9 -r SparklyPowerPlus_$DATE.mcpack target/unpacked/rp/
 
-    - name: Download java2bedrock.sh
-      run: |
-        curl -o converter.sh https://raw.githubusercontent.com/Kas-tle/java2bedrock.sh/main/converter.sh
-        
     - name: Convert Java Resource Pack to Bedrock
       env:
         DATE: ${{ steps.date.outputs.date }}
