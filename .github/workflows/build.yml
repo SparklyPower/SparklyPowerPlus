@@ -29,10 +29,6 @@ jobs:
     - name: Get current date
       id: date
       run: echo "::set-output name=date::$(date +'%d%m%Y')"
-
-    - name: list files debug
-      run: |
-        ls -lh
         
     - name: Compress Resource Pack
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
@@ -43,7 +39,7 @@ jobs:
     - name: "Get SHA1 Hash of the Java Resource Pack and Send to GitHub Output"
       env:
         DATE: ${{ steps.date.outputs.date }}
-      run: echo "java_rp_sha1=$(sha1sum SparklyPowerPlus_$DATE.zip)" >> $GITHUB_OUTPUT
+      run: echo "$(sha1sum SparklyPowerPlus_$DATE.zip)" >> $GITHUB_STEP_SUMMARY
 
     - name: "Upload Java Resource Pack"
       uses: actions/upload-artifact@v2
@@ -61,11 +57,6 @@ jobs:
       run: |
         cd bedrock_rp
         curl -o converter.sh https://raw.githubusercontent.com/Kas-tle/java2bedrock.sh/main/converter.sh
-        
-    - name: list files debug
-      run: |
-        cd bedrock_rp
-        ls -lh
 
     - name: Convert Java Resource Pack to Bedrock
       env:
@@ -80,26 +71,6 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x SparklyBedrockConverter/gradlew
     
-    - name: list files debug
-      run: |
-        pwd
-        ls -lh
-        cd assets
-        pwd
-        ls -lh
-        cd minecraft
-        pwd
-        ls -lh
-        cd textures
-        pwd
-        ls -lh
-        cd models
-        pwd
-        ls -lh
-        cd armor
-        pwd
-        ls -lh
-
     - name: Run SparklyBedrockConverter for the final touches for the Bedrock RP
       # I tried using gradle-build-action, but the "--args" were always merged into a single argument
       env:
