@@ -78,6 +78,10 @@ jobs:
     - name: list files debug
       run: |
         ls -lh
+        cd assets
+        ls -lh
+        cd minecraft
+        ls -lh
 
     - name: Run SparklyBedrockConverter for the final touches for the Bedrock RP
       # I tried using gradle-build-action, but the "--args" were always merged into a single argument
@@ -89,7 +93,7 @@ jobs:
         bedrockPwd=$(pwd)
         echo "Current path is $cwd"
         cd ../SparklyBedrockConverter
-        ./gradlew run --args="$rootPwd $cwd/target/unpackaged/rp"
+        ./gradlew run --args="$rootPwd $bedrockPwd/target/unpackaged/rp"
 
     - name: Compress Bedrock Resource Pack
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
