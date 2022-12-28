@@ -89,7 +89,7 @@ jobs:
         DATE: ${{ steps.date.outputs.date }}
       run: |
         cd bedrock_rp
-        (cd target/unpacked/rp && zip -9 -r "$OLDPWD/SparklyPowerPlus_$DATE.mcpack" .)
+        (cd target/unpackaged/rp && zip -9 -r "$OLDPWD/SparklyPowerPlus_$DATE.mcpack" .)
 
     - name: "Upload Bedrock Resource Pack"
       uses: actions/upload-artifact@v2
