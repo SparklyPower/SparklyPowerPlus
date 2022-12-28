@@ -17,8 +17,8 @@ jobs:
 
     - name: Install java2bedrock.sh dependencies
       run: |
-        apt-get install moreutils jq imagemagick unzip zip nodejs uuid-runtime
-        npm i -g spritesheet-js
+        sudo apt-get install moreutils jq imagemagick unzip zip nodejs uuid-runtime
+        sudo npm i -g spritesheet-js
       
     - name: Get current date
       id: date
