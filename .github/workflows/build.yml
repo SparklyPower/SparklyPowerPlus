@@ -15,6 +15,17 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    - name: Install java2bedrock.sh dependencies
+      run: |
+        sudo apt-get install moreutils jq imagemagick unzip zip uuid-runtime
+        sudo npm install -g npm@9.2.0
+        sudo npm i -g spritesheet-js
+      
+    - name: Setup Java JDK
+      uses: actions/setup-java@v1.4.3
+      with:
+        java-version: 17
+
     - name: Get current date
       id: date
       run: echo "::set-output name=date::$(date +'%d%m%Y')"
@@ -23,9 +34,46 @@ jobs:
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
       env:
         DATE: ${{ steps.date.outputs.date }}
-      run: zip -9 -r SparklyPowerPlus_$DATE.zip . -x '*.git*'
+      run: zip -9 -r SparklyPowerPlus_$DATE.zip . -x '*.git*' -x 'SparklyBedrockConverter'
+
+    - name: Download java2bedrock.sh
+      run: |
+        curl -o converter.sh https://raw.githubusercontent.com/Kas-tle/java2bedrock.sh/main/converter.sh
+        
+    - name: Convert Java Resource Pack to Bedrock
+      env:
+        DATE: ${{ steps.date.outputs.date }}
+      run: |
+        chmod 777 converter.sh
+        ./converter.sh SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
+
+    - name: Build and Publish with Gradle
+      uses: gradle/gradle-build-action@v2
+      env:
+        # GitHub Actions has 7GBs of available RAM for workers, so let's bump it a bit up!
+        GRADLE_OPTS: -Xmx4096m -Xms4096m
+      with:
+        build-root-directory: SparklyBedrockConverter
+        arguments: |
+          run . target/unpackaged/rp/
+
+    - name: Compress Bedrock Resource Pack
+      # This will also exclude the ".git" and ".github" folders from the Resource Pack
+      env:
+        DATE: ${{ steps.date.outputs.date }}
+      run: zip -9 -r SparklyPowerPlus_$DATE.mcpack target/unpacked/rp/
 
     - uses: actions/upload-artifact@v2
       with:
         name: SparklyPowerPlus
         path: SparklyPowerPlus_${{ steps.date.outputs.date }}.zip
+        
+    - uses: actions/upload-artifact@v2
+      with:
+        name: SparklyPowerPlus Bedrock
+        path: SparklyPowerPlus_${{ steps.date.outputs.date }}.mcpack
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: geyser_mappings.json
+        path: target/geyser_mappings.json
