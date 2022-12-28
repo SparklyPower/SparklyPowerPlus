@@ -58,7 +58,7 @@ jobs:
       with:
         build-root-directory: SparklyBedrockConverter
         arguments: |
-          run --args=". target/unpackaged/rp/"
+          run --args='. target/unpackaged/rp/'
 
     - name: Compress Bedrock Resource Pack
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
