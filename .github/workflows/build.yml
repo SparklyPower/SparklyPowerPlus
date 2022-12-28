@@ -46,3 +46,8 @@ jobs:
       with:
         name: SparklyPowerPlus
         path: SparklyPowerPlus_${{ steps.date.outputs.date }}.zip
+        
+    - uses: actions/upload-artifact@v2
+      with:
+        name: geyser_mappings.json
+        path: target/geyser_mappings.json
