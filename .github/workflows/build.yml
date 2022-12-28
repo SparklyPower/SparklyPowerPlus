@@ -39,6 +39,7 @@ jobs:
       env:
         DATE: ${{ steps.date.outputs.date }}
       run: |
+        chmod 777 converter.sh
         ./converter.sh SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
         
     - uses: actions/upload-artifact@v2
