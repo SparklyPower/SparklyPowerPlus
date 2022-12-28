@@ -130,4 +130,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: geyser_mappings.json
-        path: target/geyser_mappings.json
+        path: bedrock_rp/target/geyser_mappings.json
