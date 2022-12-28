@@ -43,7 +43,7 @@ jobs:
     - name: "Get SHA1 Hash of the Java Resource Pack and Send to GitHub Output"
       env:
         DATE: ${{ steps.date.outputs.date }}
-      run: echo $(sha1sum) >> $GITHUB_OUTPUT
+      run: echo "$(sha1sum)" >> $GITHUB_OUTPUT
 
     - name: "Upload Java Resource Pack"
       uses: actions/upload-artifact@v2
