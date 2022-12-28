@@ -118,6 +118,11 @@ jobs:
         DATE: ${{ steps.date.outputs.date }}
       run: |
         cd bedrock_rp
+        ls -lh
+        cd target
+        ls -lh
+        cd unpacked
+        ls -lh
         zip -9 -r SparklyPowerPlus_$DATE.mcpack target/unpacked/rp/
 
     - name: "Upload Bedrock Resource Pack"
