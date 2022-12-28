@@ -40,6 +40,12 @@ jobs:
         DATE: ${{ steps.date.outputs.date }}
       run: zip -9 -r SparklyPowerPlus_$DATE.zip . -x '*.git*' -x 'SparklyBedrockConverter'
 
+    - name: "Upload Java Resource Pack"
+      uses: actions/upload-artifact@v2
+      with:
+        name: SparklyPowerPlus
+        path: SparklyPowerPlus_${{ steps.date.outputs.date }}.zip
+
     # This is required because converter.sh seems to delete the "assets" folder
     - name: Create new folder for the Bedrock Resource Pack and cd into it
       run: |
@@ -57,9 +63,11 @@ jobs:
     - name: Convert Java Resource Pack to Bedrock
       env:
         DATE: ${{ steps.date.outputs.date }}
+      # Yes, the resource pack needs to be in the same folder as the script
       run: |
         chmod 777 converter.sh
-        ./converter.sh ../SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
+        mv ../SparklyPowerPlus_$DATE.zip .
+        ./converter.sh SparklyPowerPlus_$DATE.zip -w "false" -m "MyBedrock.mcpack" -a "entity_alphatest_one_sided" -b "alpha_test" -f "null" -v "1.19.2"
 
     - name: Grant execute permission for gradlew
       run: chmod +x SparklyBedrockConverter/gradlew
@@ -87,17 +95,14 @@ jobs:
         cd bedrock_rp
         zip -9 -r SparklyPowerPlus_$DATE.mcpack target/unpacked/rp/
 
-    - uses: actions/upload-artifact@v2
-      with:
-        name: SparklyPowerPlus
-        path: SparklyPowerPlus_${{ steps.date.outputs.date }}.zip
-        
-    - uses: actions/upload-artifact@v2
+    - name: "Upload Bedrock Resource Pack"
+      uses: actions/upload-artifact@v2
       with:
         name: SparklyPowerPlus Bedrock
         path: bedrock_rp/SparklyPowerPlus_${{ steps.date.outputs.date }}.mcpack
 
-    - uses: actions/upload-artifact@v2
+    - name: "Upload Geyser Mappings"
+      uses: actions/upload-artifact@v2
       with:
         name: geyser_mappings.json
         path: target/geyser_mappings.json
