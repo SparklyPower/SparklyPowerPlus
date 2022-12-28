@@ -30,6 +30,10 @@ jobs:
       id: date
       run: echo "::set-output name=date::$(date +'%d%m%Y')"
 
+    - name: list files debug
+      run: |
+        ls -lh
+        
     - name: Compress Resource Pack
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
       env:
@@ -40,6 +44,10 @@ jobs:
       run: |
         curl -o converter.sh https://raw.githubusercontent.com/Kas-tle/java2bedrock.sh/main/converter.sh
         
+    - name: list files debug
+      run: |
+        ls -lh
+
     - name: Convert Java Resource Pack to Bedrock
       env:
         DATE: ${{ steps.date.outputs.date }}
@@ -50,6 +58,10 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x SparklyBedrockConverter/gradlew
     
+    - name: list files debug
+      run: |
+        ls -lh
+
     - name: Run SparklyBedrockConverter for the final touches for the Bedrock RP
       # I tried using gradle-build-action, but the "--args" were always merged into a single argument
       env:
@@ -57,7 +69,6 @@ jobs:
       run: |
         cwd=$(pwd)
         echo "Current path is $cwd"
-        ls -lh
         cd SparklyBedrockConverter
         ./gradlew run --args="$cwd $cwd/target/unpackaged/rp"
 
