@@ -58,6 +58,8 @@
     { "predicate": { "custom_model_data": 53 }, "model": "sparklypower:item/backpack/backpack_pride" },
     { "predicate": { "custom_model_data": 54 }, "model": "sparklypower:item/backpack/backpack_maconha" },
     { "predicate": { "custom_model_data": 55 }, "model": "sparklypower:item/backpack/backpack_coelho" },
-    { "predicate": { "custom_model_data": 56 }, "model": "sparklypower:item/backpack/backpack_axolote" }
+    { "predicate": { "custom_model_data": 56 }, "model": "sparklypower:item/backpack/backpack_axolote" },
+    { "predicate": { "custom_model_data": 57 }, "model": "sparklypower:item/mugs/lori_and_pantufa" },
+    { "predicate": { "custom_model_data": 58 }, "model": "sparklypower:item/angel_halo" }
   ]
 }
