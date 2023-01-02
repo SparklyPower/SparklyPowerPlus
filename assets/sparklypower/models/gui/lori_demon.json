@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "sparklypower:gui/lori_demon"
+        "layer0": "sparklypower:item/lori_demon"
     }
 }

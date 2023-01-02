@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "sparklypower:gui/enchantment/left"
+        "layer0": "sparklypower:item/enchantment/left"
     }
 }

@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "sparklypower:gui/vip_plus"
+        "layer0": "sparklypower:item/vip_plus"
     }
 }

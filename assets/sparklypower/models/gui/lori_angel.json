@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-        "layer0": "sparklypower:gui/lori_angel"
+        "layer0": "sparklypower:item/lori_angel"
     }
 }
