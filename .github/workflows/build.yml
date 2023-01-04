@@ -81,7 +81,7 @@ jobs:
         bedrockPwd=$(pwd)
         echo "Current path is $cwd"
         cd ../SparklyBedrockConverter
-        ./gradlew run --args="$rootPwd $bedrockPwd/target/unpackaged/rp"
+        ./gradlew run --args="$rootPwd $bedrockPwd/target/unpackaged/rp $bedrockPwd/target/geyser_mappings.json"
 
     - name: Compress Bedrock Resource Pack
       # This will also exclude the ".git" and ".github" folders from the Resource Pack

@@ -3,6 +3,9 @@ package net.sparklypower.bedrockconverter
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.JsonObject
+import kotlinx.serialization.json.jsonArray
+import kotlinx.serialization.json.jsonObject
 import java.awt.image.BufferedImage
 import java.io.File
 import javax.imageio.ImageIO
@@ -15,6 +18,7 @@ fun main(args: Array<String>) {
     val inputPackFolder = File(args[0])
     val inputAssetsFolder = File(inputPackFolder, "assets")
     val outputPackFolder = File(args[1])
+    val geyserMappingsFile = File(args[2])
 
     // outputPackFolder.deleteRecursively()
     outputPackFolder.mkdirs()
@@ -145,4 +149,22 @@ fun main(args: Array<String>) {
 
     // Copy the sounds
     File(inputAssetsFolder, "sparklypower/sounds/").copyRecursively(beSparklySoundsFolder)
+
+    // Don't remap tools because Geyser doesn't support changing the tool speed (yet)
+    val geyserMappingsJson = Json.parseToJsonElement(geyserMappingsFile.readText())
+        .jsonObject
+    val items = geyserMappingsJson["items"]!!.jsonObject
+
+    JsonObject(
+        geyserMappingsJson.toMutableMap()
+            .apply {
+                this["items"] = JsonObject(
+                    items.toMutableMap().apply {
+                        this.remove("minecraft:diamond_pickaxe")
+                        this.remove("minecraft:diamond_shovel")
+                        this.remove("minecraft:golden_pickaxe")
+                    }
+                )
+            }
+    )
 }
