@@ -60,6 +60,26 @@
     { "predicate": { "custom_model_data": 55 }, "model": "sparklypower:item/backpack/backpack_coelho" },
     { "predicate": { "custom_model_data": 56 }, "model": "sparklypower:item/backpack/backpack_axolote" },
     { "predicate": { "custom_model_data": 57 }, "model": "sparklypower:item/mugs/lori_and_pantufa" },
-    { "predicate": { "custom_model_data": 58 }, "model": "sparklypower:item/angel_halo" }
+    { "predicate": { "custom_model_data": 58 }, "model": "sparklypower:item/angel_halo" },
+    { "predicate": { "custom_model_data": 59 }, "model": "sparklypower:item/plushies/standing/steve" },
+    { "predicate": { "custom_model_data": 60 }, "model": "sparklypower:item/plushies/standing/brenooooow" },
+    { "predicate": { "custom_model_data": 61 }, "model": "sparklypower:item/plushies/standing/gessy" },
+    { "predicate": { "custom_model_data": 62 }, "model": "sparklypower:item/plushies/standing/herobrine" },
+    { "predicate": { "custom_model_data": 63 }, "model": "sparklypower:item/plushies/standing/jvgm45" },
+    { "predicate": { "custom_model_data": 64 }, "model": "sparklypower:item/plushies/standing/notdemon" },
+    { "predicate": { "custom_model_data": 65 }, "model": "sparklypower:item/plushies/standing/power" },
+    { "predicate": { "custom_model_data": 66 }, "model": "sparklypower:item/plushies/standing/theboy" },
+    { "predicate": { "custom_model_data": 67 }, "model": "sparklypower:item/plushies/standing/tod" },
+    { "predicate": { "custom_model_data": 68 }, "model": "sparklypower:item/plushies/standing/vegetagamers10" },
+    { "predicate": { "custom_model_data": 69 }, "model": "sparklypower:item/plushies/standing/zumzumzum" },
+    { "predicate": { "custom_model_data": 70 }, "model": "sparklypower:item/plushies/standing/_dittom_" },
+    { "predicate": { "custom_model_data": 71 }, "model": "sparklypower:item/plushies/standing/00arthurr" },
+    { "predicate": { "custom_model_data": 72 }, "model": "sparklypower:item/plushies/standing/alex" },
+    { "predicate": { "custom_model_data": 73 }, "model": "sparklypower:item/plushies/standing/d_elet" },
+    { "predicate": { "custom_model_data": 74 }, "model": "sparklypower:item/plushies/standing/deeemoniada" },
+    { "predicate": { "custom_model_data": 75 }, "model": "sparklypower:item/plushies/standing/gabriela" },
+    { "predicate": { "custom_model_data": 76 }, "model": "sparklypower:item/plushies/standing/pantufa" },
+    { "predicate": { "custom_model_data": 77 }, "model": "sparklypower:item/plushies/standing/loritta" },
+    { "predicate": { "custom_model_data": 78 }, "model": "sparklypower:item/plushies/standing/ynilzinha_" }
   ]
 }

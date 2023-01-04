@@ -1,0 +1,6 @@
+{
+	"parent": "sparklypower:item/plushies/standing/slim",
+	"textures": {
+		"0": "item/plushies/ynilzinha_"
+	}
+}

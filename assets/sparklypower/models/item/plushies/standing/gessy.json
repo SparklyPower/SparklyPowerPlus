@@ -1,0 +1,6 @@
+{
+	"parent": "sparklypower:item/plushies/standing/normal",
+	"textures": {
+		"0": "item/plushies/gessy"
+	}
+}
