@@ -4,11 +4,12 @@ import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
-import kotlinx.serialization.json.jsonArray
 import kotlinx.serialization.json.jsonObject
 import java.awt.image.BufferedImage
 import java.io.File
 import javax.imageio.ImageIO
+
+private val jsonPrettyPrint = Json { prettyPrint = true }
 
 fun main(args: Array<String>) {
     for ((index, arg) in args.withIndex()) {
@@ -155,16 +156,20 @@ fun main(args: Array<String>) {
         .jsonObject
     val items = geyserMappingsJson["items"]!!.jsonObject
 
-    JsonObject(
-        geyserMappingsJson.toMutableMap()
-            .apply {
-                this["items"] = JsonObject(
-                    items.toMutableMap().apply {
-                        this.remove("minecraft:diamond_pickaxe")
-                        this.remove("minecraft:diamond_shovel")
-                        this.remove("minecraft:golden_pickaxe")
+    geyserMappingsFile.writeText(
+        Json { prettyPrint = true }.encodeToString(
+            JsonObject(
+                geyserMappingsJson.toMutableMap()
+                    .apply {
+                        this["items"] = JsonObject(
+                            items.toMutableMap().apply {
+                                this.remove("minecraft:diamond_pickaxe")
+                                this.remove("minecraft:diamond_shovel")
+                                this.remove("minecraft:golden_pickaxe")
+                            }
+                        )
                     }
-                )
-            }
+            )
+        )
     )
 }
