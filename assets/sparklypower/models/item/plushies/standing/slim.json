@@ -181,8 +181,8 @@
 		},
 		"fixed": {
 			"rotation": [-90, 0, 0],
-			"translation": [0, 0, -28],
-			"scale": [3.6, 3.6, 3.6]
+			"translation": [0, 0, -29],
+			"scale": [3.7, 3.7, 3.7]
 		}
 	},
 	"groups": [
