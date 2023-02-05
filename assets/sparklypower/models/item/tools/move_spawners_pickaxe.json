@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:item/generated",
+    "parent": "minecraft:item/handheld",
     "textures": {
         "layer0": "sparklypower:item/tools/move_spawners_pickaxe"
     }
