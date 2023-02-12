@@ -73,9 +73,18 @@
             "type": "bitmap"
         },
         {
+            "file": "sparklypower:font/announcement.png",
+            "chars": [
+                "\ue272\ue273\ue274\ue275\ue276\ue277\ue278\ue279\ue27a"
+            ],
+            "height": 8,
+            "ascent": 7,
+            "type": "bitmap"
+        },
+        {
             "file": "sparklypower:gui/9_slots_guis.png",
             "chars": [
-                "\ue254\ue259"
+                "\ue254\ue259\ue266"
             ],
             "height": 51,
             "ascent": 23,
@@ -84,7 +93,7 @@
         {
             "file": "sparklypower:gui/27_slots_guis.png",
             "chars": [
-                "\ue256"
+                "\ue256\ue279"
             ],
             "height": 87,
             "ascent": 23,
@@ -111,9 +120,27 @@
         {
             "file": "sparklypower:gui/54_slots_guis.png",
             "chars": [
-                "\ue253\ue255\ue261\ue262"
+                "\ue253\ue255\ue261\ue262\ue27c\ue27d\ue27e"
             ],
             "height": 141,
+            "ascent": 23,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:gui/profile_layouts.png",
+            "chars": [
+                "\ue267\ue268\ue269"
+            ],
+            "height": 141,
+            "ascent": 23,
+            "type": "bitmap"
+        },
+        {
+            "file": "sparklypower:gui/preferences.png",
+            "chars": [
+                "\ue270\ue271"
+            ],
+            "height": 123,
             "ascent": 23,
             "type": "bitmap"
         },
