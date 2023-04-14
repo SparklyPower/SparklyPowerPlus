@@ -1,0 +1,12 @@
+{
+    "parent": "item/template_skull",
+    "textures": {
+        "layer0": "sparklypower:item/social/profile/ranks/admin"
+    	},
+	"gui_light": "front",
+    	"display": {
+        "gui": {
+            "scale": [ 4.0, 4.0, 4.0 ]
+        }
+    }
+}

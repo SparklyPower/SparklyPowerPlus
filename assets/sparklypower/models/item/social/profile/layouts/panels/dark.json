@@ -1,0 +1,16 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "sparklypower:item/social/profile/layouts/panels/dark"
+    },
+    "display": {
+        "firstperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0, 0, 0 ]
+        },
+        "gui": {
+            "scale": [ 1.1, 1.1, 1.1 ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "sparklypower:item/social/announcement/unused_floppy_disc"
+    }
+}
