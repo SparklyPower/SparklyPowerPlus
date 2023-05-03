@@ -133,6 +133,7 @@
     { "predicate": { "custom_model_data": 128 }, "model": "sparklypower:item/social/profile/statistics/shop" },
     { "predicate": { "custom_model_data": 129 }, "model": "sparklypower:item/social/profile/statistics/paint_brush" },
     { "predicate": { "custom_model_data": 130 }, "model": "sparklypower:item/social/profile/statistics/paint_bucket" },
-    { "predicate": { "custom_model_data": 131 }, "model": "sparklypower:item/social/profile/statistics/speaker" }
+    { "predicate": { "custom_model_data": 131 }, "model": "sparklypower:item/social/profile/statistics/speaker" },
+    { "predicate": { "custom_model_data": 132 }, "model": "sparklypower:item/qsmp_eggs/richarlyson" }
   ]
 }
