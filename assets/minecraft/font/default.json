@@ -154,6 +154,24 @@
             "type":"bitmap"
         },
         {
+            "file":"sparklypower:font/sparkly_emojis_128.png",
+            "chars":[
+                "\ue27f\ue280\ue281\ue282"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/sparkly_emojis_16.png",
+            "chars":[
+                "\ue283"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
             "file":"sparklypower:gui/sparklypower.png",
             "chars":[
                 "\ue260"
