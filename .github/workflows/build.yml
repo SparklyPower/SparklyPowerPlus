@@ -34,7 +34,7 @@ jobs:
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
       env:
         DATE: ${{ steps.date.outputs.date }}
-      run: zip -9 -r SparklyPowerPlus_$DATE.zip . -x '*.git*' -x '*SparklyBedrockConverter*'
+      run: zip -9 -r SparklyPowerPlus_$DATE.zip . -x '*.git*' -x '*SparklyBedrockConverter*' -x 'pre_process_bedrock_resource_pack.sh'
 
     - name: "Get SHA1 Hash of the Java Resource Pack and Send to GitHub Output"
       env:
