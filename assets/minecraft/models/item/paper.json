@@ -199,6 +199,12 @@
     { "predicate": { "custom_model_data": 194 }, "model": "sparklypower:item/chimarrao/chimarrao_empty_brown" },
     { "predicate": { "custom_model_data": 195 }, "model": "sparklypower:item/chimarrao/chimarrao_empty_lori_white" },
     { "predicate": { "custom_model_data": 196 }, "model": "sparklypower:item/chimarrao/chimarrao_empty_lori_black" },
-    { "predicate": { "custom_model_data": 197 }, "model": "item/custom/plushies/crazygabii" }
+    { "predicate": { "custom_model_data": 197 }, "model": "item/custom/plushies/crazygabii" },
+    { "predicate": { "custom_model_data": 198 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_common" },
+    { "predicate": { "custom_model_data": 199 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_uncommon" },
+    { "predicate": { "custom_model_data": 200 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_rare" },
+    { "predicate": { "custom_model_data": 201 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_epic" },
+    { "predicate": { "custom_model_data": 202 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_legendary" },
+    { "predicate": { "custom_model_data": 203 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_special" }
   ]
 }
