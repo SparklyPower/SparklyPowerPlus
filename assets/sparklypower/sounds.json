@@ -1,0 +1,101 @@
+{
+    "general.oh_my_god": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/oh_my_god",
+                "stream" : false
+            }
+        ]
+    },
+    "general.lego_yoda_death": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/lego_yoda_death",
+                "stream" : false
+            }
+        ]
+    },
+    "general.tbh_yippee": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/tbh_yippee",
+                "stream" : false
+            }
+        ]
+    },
+    "general.osaka_america_ya": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/osaka_america_ya",
+                "stream" : false
+            }
+        ]
+    },
+    "general.xarola_ratinho": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/xarola_ratinho",
+                "stream" : false
+            }
+        ]
+    },
+    "general.uiii": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/uiii",
+                "stream" : false
+            }
+        ]
+    },
+    "general.uepa": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/uepa",
+                "stream" : false
+            }
+        ]
+    },
+    "general.xiii": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/xiii",
+                "stream" : false
+            }
+        ]
+    },
+    "general.irra": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/irra",
+                "stream" : false
+            }
+        ]
+    },
+    "general.esse_e_o_meu_patrao_hehe": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/esse_e_o_meu_patrao_hehe",
+                "stream" : false
+            }
+        ]
+    },
+    "general.bieltempest_entao_voce_e_o_bonzao": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/bieltempest_entao_voce_e_o_bonzao",
+                "stream" : false
+            }
+        ]
+    }
+}
