@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "power=1": { "model": "sparklypower:block/rainbow_wool" },
+    "power=2": [
+      { "model": "sparklypower:block/asphalt_block" },
+      {
+        "model": "sparklypower:block/asphalt_block",
+        "y": 90
+      },
+      {
+        "model": "sparklypower:block/asphalt_block",
+        "y": 180
+      },
+      {
+        "model": "sparklypower:block/asphalt_block",
+        "y": 270
+      }
+    ],
+    "power=3": { "model": "sparklypower:block/rainbow_concrete" },
+    "power=4": { "model": "sparklypower:block/rainbow_terracotta" }
+  }
+}

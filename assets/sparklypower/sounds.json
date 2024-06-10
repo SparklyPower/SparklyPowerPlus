@@ -97,5 +97,14 @@
                 "stream" : false
             }
         ]
+    },
+    "general.haipo_uque": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/haipo_uque",
+                "stream" : false
+            }
+        ]
     }
 }
