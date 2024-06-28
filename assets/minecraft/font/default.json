@@ -102,7 +102,16 @@
         {
             "file":"sparklypower:gui/27_slots_guis.png",
             "chars":[
-                "\ue256\ue279"
+                "\ue256\ue291"
+            ],
+            "height":87,
+            "ascent":23,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:gui/27_slots_guis.png",
+            "chars":[
+                "\ue256\ue291"
             ],
             "height":87,
             "ascent":23,
@@ -165,7 +174,7 @@
         {
             "file":"sparklypower:font/sparkly_emojis_16.png",
             "chars":[
-                "\ue283\ue284\ue285\ue286\ue287\ue288\ue289"
+                "\ue283\ue284\ue285\ue286\ue287\ue288\ue289\ue290"
             ],
             "height":8,
             "ascent":7,

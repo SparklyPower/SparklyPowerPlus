@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"texture": "sparklypower:item/fancy_menu/loja_cash/button_30days"
+	},
+	"elements": [
+		{
+			"from": [-16, -2, 0],
+			"to": [32, 18, 1],
+			"faces": {
+				"north": {"uv": [0, 2.5, 16, 16], "rotation": 180, "texture": "#texture"},
+				"south": {"uv": [0, 2.5, 16, 16], "texture": "#texture"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"gui": {
+			"translation": [-41, 1, 0],
+			"scale": [1.67, 1, 1]
+		}
+	}
+}

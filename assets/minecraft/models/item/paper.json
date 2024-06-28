@@ -205,6 +205,9 @@
     { "predicate": { "custom_model_data": 200 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_rare" },
     { "predicate": { "custom_model_data": 201 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_epic" },
     { "predicate": { "custom_model_data": 202 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_legendary" },
-    { "predicate": { "custom_model_data": 203 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_special" }
+    { "predicate": { "custom_model_data": 203 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_special" },
+    { "predicate": { "custom_model_data": 204 }, "model": "sparklypower:item/fancy_menu/loja_cash/button_30days" },
+    { "predicate": { "custom_model_data": 205 }, "model": "sparklypower:item/fancy_menu/loja_cash/button_90days" },
+    { "predicate": { "custom_model_data": 206 }, "model": "sparklypower:item/fancy_menu/loja_cash/button_180days" }
   ]
 }
