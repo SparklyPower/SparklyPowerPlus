@@ -42,7 +42,7 @@ jobs:
       run: echo "$(sha1sum SparklyPowerPlus_$DATE.zip)" >> $GITHUB_STEP_SUMMARY
 
     - name: "Upload Java Resource Pack"
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4.4.0
       with:
         name: SparklyPowerPlus Java
         path: SparklyPowerPlus_${{ steps.date.outputs.date }}.zip
@@ -106,13 +106,13 @@ jobs:
         (cd target/unpackaged/rp && zip -9 -r "$OLDPWD/SparklyPowerPlus_Bedrock_$DATE.mcpack" .)
 
     - name: "Upload Bedrock Resource Pack"
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4.4.0
       with:
         name: SparklyPowerPlus Bedrock
         path: bedrock_rp/SparklyPowerPlus_Bedrock_${{ steps.date.outputs.date }}.mcpack
 
     - name: "Upload Geyser Mappings"
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4.4.0
       with:
         name: geyser_mappings.json
         path: bedrock_rp/target/geyser_mappings.json
