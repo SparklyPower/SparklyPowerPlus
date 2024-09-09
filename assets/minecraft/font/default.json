@@ -1,161 +1,195 @@
 {
-    "providers": [
+    "providers":[
         {
-            "file": "sparklypower:font/pantufa.png",
-            "chars": [
+            "file":"sparklypower:font/pantufa.png",
+            "chars":[
                 "\ue238"
             ],
-            "height": 52,
-            "ascent": 33,
-            "type": "bitmap"
+            "height":52,
+            "ascent":33,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:font/loritta.png",
-            "chars": [
+            "file":"sparklypower:font/loritta.png",
+            "chars":[
                 "\ue239"
             ],
-            "height": 52,
-            "ascent": 33,
-            "type": "bitmap"
+            "height":52,
+            "ascent":33,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:font/loritta.png",
-            "chars": [
+            "file":"sparklypower:font/loritta.png",
+            "chars":[
                 "\ue23a"
             ],
-            "height": 52,
-            "ascent": -250,
-            "type": "bitmap"
+            "height":52,
+            "ascent":-250,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:font/porfavor.png",
-            "chars": [
+            "file":"sparklypower:font/porfavor.png",
+            "chars":[
                 "\ue23b"
             ],
-            "height": 10,
-            "ascent": 9,
-            "type": "bitmap"
+            "height":10,
+            "ascent":9,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:font/tags.png",
-            "chars": [
-                "\ue23c", "\ue23d", "\ue23e", "\ue23f", "\ue240", "\ue241", "\ue242", "\ue243", "\ue244", "\ue245"
+            "file":"sparklypower:font/tags.png",
+            "chars":[
+                "\ue23c",
+                "\ue23d",
+                "\ue23e",
+                "\ue23f",
+                "\ue240",
+                "\ue241",
+                "\ue242",
+                "\ue243",
+                "\ue244",
+                "\ue245"
             ],
-            "height": 8,
-            "ascent": 7,
-            "type": "bitmap"
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:font/staff.png",
-            "chars": [
+            "file":"sparklypower:font/staff.png",
+            "chars":[
                 "\ue246\ue247\ue248\ue249\ue24a\ue24b\ue24c\ue24d\ue24e\ue24f\ue263\ue264\ue265"
             ],
-            "height": 8,
-            "ascent": 7,
-            "type": "bitmap"
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:font/fire.png",
-            "chars": [
+            "file":"sparklypower:font/fire.png",
+            "chars":[
                 "\ue250"
             ],
-            "height": 8,
-            "ascent": 7,
-            "type": "bitmap"
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:font/staff_utils.png",
-            "chars": [
+            "file":"sparklypower:font/staff_utils.png",
+            "chars":[
                 "\ue251\ue252"
             ],
-            "height": 8,
-            "ascent": 7,
-            "type": "bitmap"
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:font/announcement.png",
-            "chars": [
+            "file":"sparklypower:font/announcement.png",
+            "chars":[
                 "\ue272\ue273\ue274\ue275\ue276\ue277\ue278\ue279\ue27a"
             ],
-            "height": 8,
-            "ascent": 7,
-            "type": "bitmap"
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:gui/9_slots_guis.png",
-            "chars": [
+            "file":"sparklypower:gui/9_slots_guis.png",
+            "chars":[
                 "\ue254\ue259\ue266"
             ],
-            "height": 51,
-            "ascent": 23,
-            "type": "bitmap"
+            "height":51,
+            "ascent":23,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:gui/27_slots_guis.png",
-            "chars": [
-                "\ue256\ue279"
+            "file":"sparklypower:gui/27_slots_guis.png",
+            "chars":[
+                "\ue256\ue291"
             ],
-            "height": 87,
-            "ascent": 23,
-            "type": "bitmap"
+            "height":87,
+            "ascent":23,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:gui/36_slots_guis.png",
-            "chars": [
+            "file":"sparklypower:gui/27_slots_guis.png",
+            "chars":[
+                "\ue256\ue291"
+            ],
+            "height":87,
+            "ascent":23,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:gui/36_slots_guis.png",
+            "chars":[
                 "\ue257"
             ],
-            "height": 105,
-            "ascent": 23,
-            "type": "bitmap"
+            "height":105,
+            "ascent":23,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:gui/45_slots_guis.png",
-            "chars": [
+            "file":"sparklypower:gui/45_slots_guis.png",
+            "chars":[
                 "\ue258"
             ],
-            "height": 123,
-            "ascent": 23,
-            "type": "bitmap"
+            "height":123,
+            "ascent":23,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:gui/54_slots_guis.png",
-            "chars": [
+            "file":"sparklypower:gui/54_slots_guis.png",
+            "chars":[
                 "\ue253\ue255\ue261\ue262\ue27c\ue27d\ue27e"
             ],
-            "height": 141,
-            "ascent": 23,
-            "type": "bitmap"
+            "height":141,
+            "ascent":23,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:gui/profile_layouts.png",
-            "chars": [
+            "file":"sparklypower:gui/profile_layouts.png",
+            "chars":[
                 "\ue267\ue268\ue269"
             ],
-            "height": 141,
-            "ascent": 23,
-            "type": "bitmap"
+            "height":141,
+            "ascent":23,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:gui/preferences.png",
-            "chars": [
+            "file":"sparklypower:gui/preferences.png",
+            "chars":[
                 "\ue270\ue271"
             ],
-            "height": 123,
-            "ascent": 23,
-            "type": "bitmap"
+            "height":123,
+            "ascent":23,
+            "type":"bitmap"
         },
         {
-            "file": "sparklypower:gui/sparklypower.png",
-            "chars": [
+            "file":"sparklypower:font/sparkly_emojis_128.png",
+            "chars":[
+                "\ue27f\ue280\ue281\ue282"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/sparkly_emojis_16.png",
+            "chars":[
+                "\ue283\ue284\ue285\ue286\ue287\ue288\ue289\ue290"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:gui/sparklypower.png",
+            "chars":[
                 "\ue260"
             ],
-            "height": 10,
-            "ascent": 8,
-            "type": "bitmap"
+            "height":10,
+            "ascent":8,
+            "type":"bitmap"
         },
-
         {
-
             "type":"bitmap",
             "file":"space:font/space_split.png",
             "ascent":-32768,
@@ -172,6 +206,270 @@
             "chars":[
                 "陇"
             ]
+        },
+        {
+            "file":"sparklypower:font/unihan/5a.png",
+            "chars":[
+                "娀威娂娃娄娅娆娇娈娉娊娋娌娍娎娏",
+                "娐娑娒娓娔娕娖娗娘娙娚娛娜娝娞娟",
+                "娠娡娢娣娤娥娦娧娨娩娪娫娬娭娮娯",
+                "娰娱娲娳娴娵娶娷娸娹娺娻娼娽娾娿",
+                "婀婁婂婃婄婅婆婇婈婉婊婋婌婍婎婏",
+                "婐婑婒婓婔婕婖婗婘婙婚婛婜婝婞婟",
+                "婠婡婢婣婤婥婦婧婨婩婪婫婬婭婮婯",
+                "婰婱婲婳婴婵婶婷婸婹婺婻婼婽婾婿",
+                "媀媁媂媃媄媅媆媇媈媉媊媋媌媍媎媏",
+                "媐媑媒媓媔媕媖媗媘媙媚媛媜媝媞媟",
+                "媠媡媢媣媤媥媦媧媨媩媪媫媬媭媮媯",
+                "媰媱媲媳媴媵媶媷媸媹媺媻媼媽媾媿",
+                "嫀嫁嫂嫃嫄嫅嫆嫇嫈嫉嫊嫋嫌嫍嫎嫏",
+                "嫐嫑嫒嫓嫔嫕嫖嫗嫘嫙嫚嫛嫜嫝嫞嫟",
+                "嫠嫡嫢嫣嫤嫥嫦嫧嫨嫩嫪嫫嫬嫭嫮嫯",
+                "嫰嫱嫲嫳嫴嫵嫶嫷嫸嫹嫺嫻嫼嫽嫾嫿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/90.png",
+            "chars":[
+                "退送适逃逄逅逆逇逈选逊逋逌逍逎透",
+                "逐逑递逓途逕逖逗逘這通逛逜逝逞速",
+                "造逡逢連逤逥逦逧逨逩逪逫逬逭逮逯",
+                "逰週進逳逴逵逶逷逸逹逺逻逼逽逾逿",
+                "遀遁遂遃遄遅遆遇遈遉遊運遌遍過遏",
+                "遐遑遒道達違遖遗遘遙遚遛遜遝遞遟",
+                "遠遡遢遣遤遥遦遧遨適遪遫遬遭遮遯",
+                "遰遱遲遳遴遵遶遷選遹遺遻遼遽遾避",
+                "邀邁邂邃還邅邆邇邈邉邊邋邌邍邎邏",
+                "邐邑邒邓邔邕邖邗邘邙邚邛邜邝邞邟",
+                "邠邡邢那邤邥邦邧邨邩邪邫邬邭邮邯",
+                "邰邱邲邳邴邵邶邷邸邹邺邻邼邽邾邿",
+                "郀郁郂郃郄郅郆郇郈郉郊郋郌郍郎郏",
+                "郐郑郒郓郔郕郖郗郘郙郚郛郜郝郞郟",
+                "郠郡郢郣郤郥郦郧部郩郪郫郬郭郮郯",
+                "郰郱郲郳郴郵郶郷郸郹郺郻郼都郾郿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/91.png",
+            "chars":[
+                "鄀鄁鄂鄃鄄鄅鄆鄇鄈鄉鄊鄋鄌鄍鄎鄏",
+                "鄐鄑鄒鄓鄔鄕鄖鄗鄘鄙鄚鄛鄜鄝鄞鄟",
+                "鄠鄡鄢鄣鄤鄥鄦鄧鄨鄩鄪鄫鄬鄭鄮鄯",
+                "鄰鄱鄲鄳鄴鄵鄶鄷鄸鄹鄺鄻鄼鄽鄾鄿",
+                "酀酁酂酃酄酅酆酇酈酉酊酋酌配酎酏",
+                "酐酑酒酓酔酕酖酗酘酙酚酛酜酝酞酟",
+                "酠酡酢酣酤酥酦酧酨酩酪酫酬酭酮酯",
+                "酰酱酲酳酴酵酶酷酸酹酺酻酼酽酾酿",
+                "醀醁醂醃醄醅醆醇醈醉醊醋醌醍醎醏",
+                "醐醑醒醓醔醕醖醗醘醙醚醛醜醝醞醟",
+                "醠醡醢醣醤醥醦醧醨醩醪醫醬醭醮醯",
+                "醰醱醲醳醴醵醶醷醸醹醺醻醼醽醾醿",
+                "釀釁釂釃釄釅釆采釈釉释釋里重野量",
+                "釐金釒釓釔釕釖釗釘釙釚釛釜針釞釟",
+                "釠釡釢釣釤釥釦釧釨釩釪釫釬釭釮釯",
+                "釰釱釲釳釴釵釶釷釸釹釺釻釼釽釾釿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/92.png",
+            "chars":[
+                "鈀鈁鈂鈃鈄鈅鈆鈇鈈鈉鈊鈋鈌鈍鈎鈏",
+                "鈐鈑鈒鈓鈔鈕鈖鈗鈘鈙鈚鈛鈜鈝鈞鈟",
+                "鈠鈡鈢鈣鈤鈥鈦鈧鈨鈩鈪鈫鈬鈭鈮鈯",
+                "鈰鈱鈲鈳鈴鈵鈶鈷鈸鈹鈺鈻鈼鈽鈾鈿",
+                "鉀鉁鉂鉃鉄鉅鉆鉇鉈鉉鉊鉋鉌鉍鉎鉏",
+                "鉐鉑鉒鉓鉔鉕鉖鉗鉘鉙鉚鉛鉜鉝鉞鉟",
+                "鉠鉡鉢鉣鉤鉥鉦鉧鉨鉩鉪鉫鉬鉭鉮鉯",
+                "鉰鉱鉲鉳鉴鉵鉶鉷鉸鉹鉺鉻鉼鉽鉾鉿",
+                "銀銁銂銃銄銅銆銇銈銉銊銋銌銍銎銏",
+                "銐銑銒銓銔銕銖銗銘銙銚銛銜銝銞銟",
+                "銠銡銢銣銤銥銦銧銨銩銪銫銬銭銮銯",
+                "銰銱銲銳銴銵銶銷銸銹銺銻銼銽銾銿",
+                "鋀鋁鋂鋃鋄鋅鋆鋇鋈鋉鋊鋋鋌鋍鋎鋏",
+                "鋐鋑鋒鋓鋔鋕鋖鋗鋘鋙鋚鋛鋜鋝鋞鋟",
+                "鋠鋡鋢鋣鋤鋥鋦鋧鋨鋩鋪鋫鋬鋭鋮鋯",
+                "鋰鋱鋲鋳鋴鋵鋶鋷鋸鋹鋺鋻鋼鋽鋾鋿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/93.png",
+            "chars":[
+                "錀錁錂錃錄錅錆錇錈錉錊錋錌錍錎錏",
+                "錐錑錒錓錔錕錖錗錘錙錚錛錜錝錞錟",
+                "錠錡錢錣錤錥錦錧錨錩錪錫錬錭錮錯",
+                "錰錱録錳錴錵錶錷錸錹錺錻錼錽錾錿",
+                "鍀鍁鍂鍃鍄鍅鍆鍇鍈鍉鍊鍋鍌鍍鍎鍏",
+                "鍐鍑鍒鍓鍔鍕鍖鍗鍘鍙鍚鍛鍜鍝鍞鍟",
+                "鍠鍡鍢鍣鍤鍥鍦鍧鍨鍩鍪鍫鍬鍭鍮鍯",
+                "鍰鍱鍲鍳鍴鍵鍶鍷鍸鍹鍺鍻鍼鍽鍾鍿",
+                "鎀鎁鎂鎃鎄鎅鎆鎇鎈鎉鎊鎋鎌鎍鎎鎏",
+                "鎐鎑鎒鎓鎔鎕鎖鎗鎘鎙鎚鎛鎜鎝鎞鎟",
+                "鎠鎡鎢鎣鎤鎥鎦鎧鎨鎩鎪鎫鎬鎭鎮鎯",
+                "鎰鎱鎲鎳鎴鎵鎶鎷鎸鎹鎺鎻鎼鎽鎾鎿",
+                "鏀鏁鏂鏃鏄鏅鏆鏇鏈鏉鏊鏋鏌鏍鏎鏏",
+                "鏐鏑鏒鏓鏔鏕鏖鏗鏘鏙鏚鏛鏜鏝鏞鏟",
+                "鏠鏡鏢鏣鏤鏥鏦鏧鏨鏩鏪鏫鏬鏭鏮鏯",
+                "鏰鏱鏲鏳鏴鏵鏶鏷鏸鏹鏺鏻鏼鏽鏾鏿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/94.png",
+            "chars":[
+                "鐀鐁鐂鐃鐄鐅鐆鐇鐈鐉鐊鐋鐌鐍鐎鐏",
+                "鐐鐑鐒鐓鐔鐕鐖鐗鐘鐙鐚鐛鐜鐝鐞鐟",
+                "鐠鐡鐢鐣鐤鐥鐦鐧鐨鐩鐪鐫鐬鐭鐮鐯",
+                "鐰鐱鐲鐳鐴鐵鐶鐷鐸鐹鐺鐻鐼鐽鐾鐿",
+                "鑀鑁鑂鑃鑄鑅鑆鑇鑈鑉鑊鑋鑌鑍鑎鑏",
+                "鑐鑑鑒鑓鑔鑕鑖鑗鑘鑙鑚鑛鑜鑝鑞鑟",
+                "鑠鑡鑢鑣鑤鑥鑦鑧鑨鑩鑪鑫鑬鑭鑮鑯",
+                "鑰鑱鑲鑳鑴鑵鑶鑷鑸鑹鑺鑻鑼鑽鑾鑿",
+                "钀钁钂钃钄钅钆钇针钉钊钋钌钍钎钏",
+                "钐钑钒钓钔钕钖钗钘钙钚钛钜钝钞钟",
+                "钠钡钢钣钤钥钦钧钨钩钪钫钬钭钮钯",
+                "钰钱钲钳钴钵钶钷钸钹钺钻钼钽钾钿",
+                "铀铁铂铃铄铅铆铇铈铉铊铋铌铍铎铏",
+                "铐铑铒铓铔铕铖铗铘铙铚铛铜铝铞铟",
+                "铠铡铢铣铤铥铦铧铨铩铪铫铬铭铮铯",
+                "铰铱铲铳铴铵银铷铸铹铺铻铼铽链铿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/95.png",
+            "chars":[
+                "销锁锂锃锄锅锆锇锈锉锊锋锌锍锎锏",
+                "锐锑锒锓锔锕锖锗锘错锚锛锜锝锞锟",
+                "锠锡锢锣锤锥锦锧锨锩锪锫锬锭键锯",
+                "锰锱锲锳锴锵锶锷锸锹锺锻锼锽锾锿",
+                "镀镁镂镃镄镅镆镇镈镉镊镋镌镍镎镏",
+                "镐镑镒镓镔镕镖镗镘镙镚镛镜镝镞镟",
+                "镠镡镢镣镤镥镦镧镨镩镪镫镬镭镮镯",
+                "镰镱镲镳镴镵镶長镸镹镺镻镼镽镾长",
+                "門閁閂閃閄閅閆閇閈閉閊開閌閍閎閏",
+                "閐閑閒間閔閕閖閗閘閙閚閛閜閝閞閟",
+                "閠閡関閣閤閥閦閧閨閩閪閫閬閭閮閯",
+                "閰閱閲閳閴閵閶閷閸閹閺閻閼閽閾閿",
+                "闀闁闂闃闄闅闆闇闈闉闊闋闌闍闎闏",
+                "闐闑闒闓闔闕闖闗闘闙闚闛關闝闞闟",
+                "闠闡闢闣闤闥闦闧门闩闪闫闬闭问闯",
+                "闰闱闲闳间闵闶闷闸闹闺闻闼闽闾闿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/96.png",
+            "chars":[
+                "阀阁阂阃阄阅阆阇阈阉阊阋阌阍阎阏",
+                "阐阑阒阓阔阕阖阗阘阙阚阛阜阝阞队",
+                "阠阡阢阣阤阥阦阧阨阩阪阫阬阭阮阯",
+                "阰阱防阳阴阵阶阷阸阹阺阻阼阽阾阿",
+                "陀陁陂陃附际陆陇陈陉陊陋陌降陎陏",
+                "限陑陒陓陔陕陖陗陘陙陚陛陜陝陞陟",
+                "陠陡院陣除陥陦陧陨险陪陫陬陭陮陯",
+                "陰陱陲陳陴陵陶陷陸陹険陻陼陽陾陿",
+                "隀隁隂隃隄隅隆隇隈隉隊隋隌隍階随",
+                "隐隑隒隓隔隕隖隗隘隙隚際障隝隞隟",
+                "隠隡隢隣隤隥隦隧隨隩險隫隬隭隮隯",
+                "隰隱隲隳隴隵隶隷隸隹隺隻隼隽难隿",
+                "雀雁雂雃雄雅集雇雈雉雊雋雌雍雎雏",
+                "雐雑雒雓雔雕雖雗雘雙雚雛雜雝雞雟",
+                "雠雡離難雤雥雦雧雨雩雪雫雬雭雮雯",
+                "雰雱雲雳雴雵零雷雸雹雺電雼雽雾雿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/97.png",
+            "chars":[
+                "需霁霂霃霄霅霆震霈霉霊霋霌霍霎霏",
+                "霐霑霒霓霔霕霖霗霘霙霚霛霜霝霞霟",
+                "霠霡霢霣霤霥霦霧霨霩霪霫霬霭霮霯",
+                "霰霱露霳霴霵霶霷霸霹霺霻霼霽霾霿",
+                "靀靁靂靃靄靅靆靇靈靉靊靋靌靍靎靏",
+                "靐靑青靓靔靕靖靗靘静靚靛靜靝非靟",
+                "靠靡面靣靤靥靦靧靨革靪靫靬靭靮靯",
+                "靰靱靲靳靴靵靶靷靸靹靺靻靼靽靾靿",
+                "鞀鞁鞂鞃鞄鞅鞆鞇鞈鞉鞊鞋鞌鞍鞎鞏",
+                "鞐鞑鞒鞓鞔鞕鞖鞗鞘鞙鞚鞛鞜鞝鞞鞟",
+                "鞠鞡鞢鞣鞤鞥鞦鞧鞨鞩鞪鞫鞬鞭鞮鞯",
+                "鞰鞱鞲鞳鞴鞵鞶鞷鞸鞹鞺鞻鞼鞽鞾鞿",
+                "韀韁韂韃韄韅韆韇韈韉韊韋韌韍韎韏",
+                "韐韑韒韓韔韕韖韗韘韙韚韛韜韝韞韟",
+                "韠韡韢韣韤韥韦韧韨韩韪韫韬韭韮韯",
+                "韰韱韲音韴韵韶韷韸韹韺韻韼韽韾響"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/98.png",
+            "chars":[
+                "頀頁頂頃頄項順頇須頉頊頋頌頍頎頏",
+                "預頑頒頓頔頕頖頗領頙頚頛頜頝頞頟",
+                "頠頡頢頣頤頥頦頧頨頩頪頫頬頭頮頯",
+                "頰頱頲頳頴頵頶頷頸頹頺頻頼頽頾頿",
+                "顀顁顂顃顄顅顆顇顈顉顊顋題額顎顏",
+                "顐顑顒顓顔顕顖顗願顙顚顛顜顝類顟",
+                "顠顡顢顣顤顥顦顧顨顩顪顫顬顭顮顯",
+                "顰顱顲顳顴页顶顷顸项顺须顼顽顾顿",
+                "颀颁颂颃预颅领颇颈颉颊颋颌颍颎颏",
+                "颐频颒颓颔颕颖颗题颙颚颛颜额颞颟",
+                "颠颡颢颣颤颥颦颧風颩颪颫颬颭颮颯",
+                "颰颱颲颳颴颵颶颷颸颹颺颻颼颽颾颿",
+                "飀飁飂飃飄飅飆飇飈飉飊飋飌飍风飏",
+                "飐飑飒飓飔飕飖飗飘飙飚飛飜飝飞食",
+                "飠飡飢飣飤飥飦飧飨飩飪飫飬飭飮飯",
+                "飰飱飲飳飴飵飶飷飸飹飺飻飼飽飾飿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/unihan/99.png",
+            "chars":[
+                "餀餁餂餃餄餅餆餇餈餉養餋餌餍餎餏",
+                "餐餑餒餓餔餕餖餗餘餙餚餛餜餝餞餟",
+                "餠餡餢餣餤餥餦餧館餩餪餫餬餭餮餯",
+                "餰餱餲餳餴餵餶餷餸餹餺餻餼餽餾餿",
+                "饀饁饂饃饄饅饆饇饈饉饊饋饌饍饎饏",
+                "饐饑饒饓饔饕饖饗饘饙饚饛饜饝饞饟",
+                "饠饡饢饣饤饥饦饧饨饩饪饫饬饭饮饯",
+                "饰饱饲饳饴饵饶饷饸饹饺饻饼饽饾饿",
+                "馀馁馂馃馄馅馆馇馈馉馊馋馌馍馎馏",
+                "馐馑馒馓馔馕首馗馘香馚馛馜馝馞馟",
+                "馠馡馢馣馤馥馦馧馨馩馪馫馬馭馮馯",
+                "馰馱馲馳馴馵馶馷馸馹馺馻馼馽馾馿",
+                "駀駁駂駃駄駅駆駇駈駉駊駋駌駍駎駏",
+                "駐駑駒駓駔駕駖駗駘駙駚駛駜駝駞駟",
+                "駠駡駢駣駤駥駦駧駨駩駪駫駬駭駮駯",
+                "駰駱駲駳駴駵駶駷駸駹駺駻駼駽駾駿"
+            ],
+            "height":8,
+            "ascent":7,
+            "type":"bitmap"
         }
     ]
 }

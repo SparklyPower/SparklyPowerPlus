@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "type=bottom": [
+      { "model": "sparklypower:block/asphalt_slab" },
+      {
+        "model": "sparklypower:block/asphalt_slab",
+        "y": 90
+      },
+      {
+        "model": "sparklypower:block/asphalt_slab",
+        "y": 180
+      },
+      {
+        "model": "sparklypower:block/asphalt_slab",
+        "y": 270
+      }
+    ],
+    "type=top": [
+      { "model": "sparklypower:block/asphalt_slab_top" },
+      {
+        "model": "sparklypower:block/asphalt_slab_top",
+        "y": 90
+      },
+      {
+        "model": "sparklypower:block/asphalt_slab_top",
+        "y": 180
+      },
+      {
+        "model": "sparklypower:block/asphalt_slab_top",
+        "y": 270
+      }
+    ],
+    "type=double": [
+      { "model": "sparklypower:block/asphalt_block" },
+      {
+        "model": "sparklypower:block/asphalt_block",
+        "y": 90
+      },
+      {
+        "model": "sparklypower:block/asphalt_block",
+        "y": 180
+      },
+      {
+        "model": "sparklypower:block/asphalt_block",
+        "y": 270
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "sparklypower:item/chimarrao/chimarrao",
+	"textures": {
+		"1": "sparklypower:item/chimarrao/chimarrao_lori_white",
+		"particle": "sparklypower:item/chimarrao/chimarrao_lori_white"
+	}
+}

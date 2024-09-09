@@ -277,5 +277,14 @@
                 "stream" : true
             }
         ]
+    },
+    "sparklypower.sfx.money": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:sfx/money",
+                "stream" : true
+            }
+        ]
     }
 }

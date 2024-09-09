@@ -126,7 +126,7 @@ fun main(args: Array<String>) {
 
     // ===[ SOUNDS REMAPPER ]===
     // Copy the definitions
-    val javaSounds = Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "minecraft/sounds.json").readText())
+    val javaSounds = Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "minecraft/sounds.json").readText()) + Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "sparklypower/sounds.json").readText())
     val beSounds = MCBedrockSoundDefinitions(
         "1.14.0",
         javaSounds.mapValues { // it is actually the same JSON format lmao
