@@ -1,0 +1,27 @@
+{
+    "textures": {
+        "texture": "sparklypower:fancy_menu/loja_cash/button_5"
+    },
+    "elements": [ 
+        {
+            "from": [ -16, -16, -16 ],
+            "to": [ 32, 0, 32 ],
+            "faces": {
+                "north": { "uv": [ 0.55, 0, 16, 12 ], "rotation": 180, "texture": "#texture" },
+                "south": { "uv": [ 0.55, 0, 16, 12 ], "texture": "#texture" }
+            }
+        }
+    ],
+    "display": {
+        "firstperson_lefthand": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0, 0, 0 ]
+        },
+        "gui": {
+            "translation": [ 63, 18, 0 ],
+            "scale": [ 2.25, 1.12, 1.0 ]
+        }
+    },
+    "gui_light":"front"
+}
