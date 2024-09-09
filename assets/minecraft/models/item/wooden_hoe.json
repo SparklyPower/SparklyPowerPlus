@@ -50,6 +50,10 @@
 		{ "predicate": { "custom_model_data": 13 }, "model": "item/custom/plushies/d_elet" },
 		{ "predicate": { "custom_model_data": 14 }, "model": "item/custom/plushies/theboy" },
 		{ "predicate": { "custom_model_data": 15 }, "model": "item/custom/plushies/00arthurr" },
+		{ "predicate": { "custom_model_data": 16 }, "model": "item/custom/plushies/thecauagames" },
+		{ "predicate": { "custom_model_data": 17 }, "model": "item/custom/plushies/lightt2148" },
+		{ "predicate": { "custom_model_data": 18 }, "model": "item/custom/plushies/pansoka" },
+		{ "predicate": { "custom_model_data": 19 }, "model": "item/custom/plushies/otnt_" },
 		{ "predicate": {"damaged": 1, "damage": 0}, "model": "item/wooden_hoe"}
 	]
 }
