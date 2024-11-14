@@ -216,6 +216,9 @@
     { "predicate": { "custom_model_data": 211 }, "model": "sparklypower:item/plushies/standing/mercuryx001" },
     { "predicate": { "custom_model_data": 212 }, "model": "sparklypower:item/plushies/standing/saturnyx001" },
     { "predicate": { "custom_model_data": 213 }, "model": "sparklypower:item/christmas_hat/santa_hat" },
-    { "predicate": { "custom_model_data": 214 }, "model": "sparklypower:item/cake_hat/cake_hat" }
+    { "predicate": { "custom_model_data": 214 }, "model": "sparklypower:item/cake_hat/cake_hat" },
+    { "predicate": { "custom_model_data": 215 }, "model": "sparklypower:item/music_disc/music_disc_club_classics" },
+    { "predicate": { "custom_model_data": 216 }, "model": "sparklypower:item/music_disc/music_disc_motteke_sailor_fuku" },
+    { "predicate": { "custom_model_data": 217 }, "model": "sparklypower:item/music_disc/music_disc_ta_facil_dizer_que_me_ama" }
   ]
 }

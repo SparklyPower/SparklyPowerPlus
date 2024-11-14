@@ -106,5 +106,33 @@
                 "stream" : false
             }
         ]
+    },
+
+    "music_disc.club_classics": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/club_classics",
+                "stream" : true
+            }
+        ]
+    },
+    "music_disc.motteke_sailor_fuku": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/motteke_sailor_fuku",
+                "stream" : true
+            }
+        ]
+    },
+    "music_disc.ta_facil_dizer_que_me_ama": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/ta_facil_dizer_que_me_ama",
+                "stream" : true
+            }
+        ]
     }
 }
