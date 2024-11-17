@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "sparklypower:item/cube_test",
+		"particle": "sparklypower:item/cube_test"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 2, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
+			"faces": {
+				"north": {"uv": [3, 6, 5, 8], "texture": "#0"},
+				"east": {"uv": [6, 3, 8, 5], "texture": "#0"},
+				"south": {"uv": [5, 6, 7, 8], "texture": "#0"},
+				"west": {"uv": [7, 5, 9, 7], "texture": "#0"},
+				"up": {"uv": [9, 9, 7, 7], "texture": "#0"},
+				"down": {"uv": [5, 8, 3, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [9.75, 2.75, 9.5],
+			"to": [6.75, -0.25, 6.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.75, 2.75, 9.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 3], "texture": "#0"},
+				"east": {"uv": [0, 3, 3, 6], "texture": "#0"},
+				"south": {"uv": [3, 0, 6, 3], "texture": "#0"},
+				"west": {"uv": [3, 3, 6, 6], "texture": "#0"},
+				"up": {"uv": [3, 9, 0, 6], "texture": "#0"},
+				"down": {"uv": [9, 0, 6, 3], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"translation": [0, 14, 0],
+			"scale": [2.95, 2.95, 2.95]
+		}
+	}
+}
