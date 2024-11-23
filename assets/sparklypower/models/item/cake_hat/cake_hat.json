@@ -191,12 +191,12 @@
 			"scale": [0.75, 0.75, 0.75]
 		},
 		"ground": {
-			"translation": [0, 4.5, 0]
+			"translation": [0, 3, 0],
+			"scale": [0.65, 0.65, 0.65]
 		},
 		"gui": {
-			"rotation": [30, 225, 0],
-			"translation": [0, 2.75, 0],
-			"scale": [0.625, 0.625, 0.625]
+			"rotation": [0, 180, 0],
+			"translation": [0, 2.5, 0]
 		},
 		"head": {
 			"translation": [0, 16.5, 0],

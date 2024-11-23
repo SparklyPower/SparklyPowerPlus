@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "sparklypower:item/music_disc/music_disc_ta_facil_dizer_que_me_ama_cover_art"
+    }
+}

@@ -223,6 +223,10 @@
     { "predicate": { "custom_model_data": 218 }, "model": "sparklypower:item/moai_head/moai_head" },
     { "predicate": { "custom_model_data": 219 }, "model": "sparklypower:item/shikanoko_antlers/shikanoko_antlers" },
     { "predicate": { "custom_model_data": 220 }, "model": "sparklypower:item/bnuy_ears" },
-    { "predicate": { "custom_model_data": 221 }, "model": "sparklypower:item/deal_with_it_sunglasses" }
+    { "predicate": { "custom_model_data": 221 }, "model": "sparklypower:item/deal_with_it_sunglasses" },
+    { "predicate": { "custom_model_data": 222 }, "model": "sparklypower:item/music_disc/music_disc_club_classics_cover_art" },
+    { "predicate": { "custom_model_data": 223 }, "model": "sparklypower:item/music_disc/music_disc_motteke_sailor_fuku_cover_art" },
+    { "predicate": { "custom_model_data": 224 }, "model": "sparklypower:item/music_disc/music_disc_ta_facil_dizer_que_me_ama_cover_art" },
+    { "predicate": { "custom_model_data": 225 }, "model": "sparklypower:item/blahaj/blahaj" }
   ]
 }

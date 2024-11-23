@@ -20,5 +20,9 @@
   "menu.returnToGame": "§f锈 §aReturn to SparklyPower §f锇",
   "menu.disconnect": "§f闹 §cBye SparklyPower §f闺",
 
-  "container.inventory":""
+  "container.inventory":"",
+
+  
+  "painting.sparklypower.pandastica_hora_de_arrepiar.title":"Hora de Arrepiar!",
+  "painting.sparklypower.pandastica_hora_de_arrepiar.author":"Pandastica"
 }
