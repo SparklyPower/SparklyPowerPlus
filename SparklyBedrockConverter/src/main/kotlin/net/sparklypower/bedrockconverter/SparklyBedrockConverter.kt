@@ -126,19 +126,40 @@ fun main(args: Array<String>) {
 
     // ===[ SOUNDS REMAPPER ]===
     // Copy the definitions
-    val javaSounds = Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "minecraft/sounds.json").readText()) + Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "sparklypower/sounds.json").readText())
-    val beSounds = MCBedrockSoundDefinitions(
-        "1.14.0",
-        javaSounds.mapValues { // it is actually the same JSON format lmao
-            it.value.copy(
-                sounds = it.value.sounds.map {
+    val minecraftNamespaceJavaSounds = Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "minecraft/sounds.json").readText())
+    val sparklyPowerNamespaceJavaSounds = Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "sparklypower/sounds.json").readText())
+
+    // it is actually the same JSON format for the sound definition lmao
+    val bedrockSoundDefinitions = mutableMapOf<String, MCJavaSoundDefinition>()
+
+    for (javaSoundDefinition in minecraftNamespaceJavaSounds) {
+        bedrockSoundDefinitions[javaSoundDefinition.key] = javaSoundDefinition.value
+            .copy(
+                sounds = javaSoundDefinition.value.sounds.map {
                     it.copy(
                         name = "sounds/${it.name.replace(":", "/")}" // Replace the namespace to a path, example: "sparklypower:" to "sparklypower/"
                     )
                 }
             )
-        }
+    }
+
+    for (javaSoundDefinition in sparklyPowerNamespaceJavaSounds) {
+        // When storing on the sparklypower namespace, we MUST include the "sparklypower" namespace on the key
+        bedrockSoundDefinitions["sparklypower:${javaSoundDefinition.key}"] = javaSoundDefinition.value
+            .copy(
+                sounds = javaSoundDefinition.value.sounds.map {
+                    it.copy(
+                        name = "sounds/${it.name.replace(":", "/")}" // Replace the namespace to a path, example: "sparklypower:" to "sparklypower/"
+                    )
+                }
+            )
+    }
+
+    val beSounds = MCBedrockSoundDefinitions(
+        "1.14.0",
+        bedrockSoundDefinitions
     )
+
     val beSoundsFolder = File(outputPackFolder, "sounds")
     beSoundsFolder.mkdirs()
     File(beSoundsFolder, "sound_definitions.json")
