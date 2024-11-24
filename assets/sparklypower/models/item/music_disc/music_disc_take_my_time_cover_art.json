@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "sparklypower:item/music_disc/music_disc_take_my_time_cover_art"
+    }
+}

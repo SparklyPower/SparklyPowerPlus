@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "sparklypower:item/music_disc/music_disc_fallen_kingdom_cover_art"
+    }
+}

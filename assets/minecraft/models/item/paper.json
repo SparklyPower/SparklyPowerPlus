@@ -227,6 +227,21 @@
     { "predicate": { "custom_model_data": 222 }, "model": "sparklypower:item/music_disc/music_disc_club_classics_cover_art" },
     { "predicate": { "custom_model_data": 223 }, "model": "sparklypower:item/music_disc/music_disc_motteke_sailor_fuku_cover_art" },
     { "predicate": { "custom_model_data": 224 }, "model": "sparklypower:item/music_disc/music_disc_ta_facil_dizer_que_me_ama_cover_art" },
-    { "predicate": { "custom_model_data": 225 }, "model": "sparklypower:item/blahaj/blahaj" }
+    { "predicate": { "custom_model_data": 225 }, "model": "sparklypower:item/blahaj/blahaj" },
+    { "predicate": { "custom_model_data": 226 }, "model": "sparklypower:item/music_disc/music_disc_two_months_off" },
+    { "predicate": { "custom_model_data": 227 }, "model": "sparklypower:item/music_disc/music_disc_two_months_off_cover_art" },
+    { "predicate": { "custom_model_data": 228 }, "model": "sparklypower:item/music_disc/music_disc_live_and_learn" },
+    { "predicate": { "custom_model_data": 229 }, "model": "sparklypower:item/music_disc/music_disc_live_and_learn_cover_art" },
+    { "predicate": { "custom_model_data": 230 }, "model": "sparklypower:item/music_disc/music_disc_take_my_time" },
+    { "predicate": { "custom_model_data": 231 }, "model": "sparklypower:item/music_disc/music_disc_take_my_time_cover_art" },
+    { "predicate": { "custom_model_data": 232 }, "model": "sparklypower:item/music_disc/music_disc_bad_apple" },
+    { "predicate": { "custom_model_data": 233 }, "model": "sparklypower:item/music_disc/music_disc_bad_apple_cover_art" },
+    { "predicate": { "custom_model_data": 234 }, "model": "sparklypower:item/music_disc/music_disc_chala_head_chala" },
+    { "predicate": { "custom_model_data": 235 }, "model": "sparklypower:item/music_disc/music_disc_chala_head_chala_cover_art" },
+    { "predicate": { "custom_model_data": 236 }, "model": "sparklypower:item/music_disc/music_disc_hino_nacional_brasil" },
+    { "predicate": { "custom_model_data": 237 }, "model": "sparklypower:item/music_disc/music_disc_hino_nacional_brasil_cover_art" },
+    { "predicate": { "custom_model_data": 238 }, "model": "sparklypower:item/music_disc/music_disc_fallen_kingdom" },
+    { "predicate": { "custom_model_data": 239 }, "model": "sparklypower:item/music_disc/music_disc_fallen_kingdom_cover_art" },
+    { "predicate": { "custom_model_data": 240 }, "model": "minecraft:item/painting" }
   ]
 }

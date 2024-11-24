@@ -134,5 +134,68 @@
                 "stream" : true
             }
         ]
+    },
+    "music_disc.two_months_off": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/two_months_off",
+                "stream" : true
+            }
+        ]
+    },
+    "music_disc.live_and_learn": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/live_and_learn",
+                "stream" : true
+            }
+        ]
+    },
+    "music_disc.take_my_time": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/take_my_time",
+                "stream" : true
+            }
+        ]
+    },
+    "music_disc.bad_apple": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/bad_apple",
+                "stream" : true
+            }
+        ]
+    },
+    "music_disc.chala_head_chala": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/chala_head_chala",
+                "stream" : true
+            }
+        ]
+    },
+    "music_disc.hino_nacional_brasil": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/hino_nacional_brasil",
+                "stream" : true
+            }
+        ]
+    },
+    "music_disc.fallen_kingdom": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:music_disc/fallen_kingdom",
+                "stream" : true
+            }
+        ]
     }
 }
