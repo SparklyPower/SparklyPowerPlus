@@ -116,16 +116,6 @@
             }
         ]
     },
-    "general.metro_trecho_sp": {
-        "category" : "record",
-        "sounds" : [
-            {
-                "name" : "sparklypower:general/metro_trecho_sp",
-                "stream" : false,
-                "volume" : 0.4
-            }
-        ]
-    },
     "general.metro_paraiso": {
         "category" : "record",
         "sounds" : [
