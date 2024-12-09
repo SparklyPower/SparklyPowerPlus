@@ -15,9 +15,11 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
+    # java2bedrock REQUIRES jq 1.6, and fails if you have a newer jq version
     - name: Install java2bedrock.sh dependencies
       run: |
-        sudo apt-get install moreutils jq imagemagick unzip zip uuid-runtime
+        sudo apt-get install moreutils imagemagick unzip zip uuid-runtime
+        sudo wget -O /usr/bin/jq "https://github.com/jqlang/jq/releases/download/jq-1.6/jq-linux64"
         sudo npm install -g npm@9.2.0
         sudo npm i -g spritesheet-js
 
