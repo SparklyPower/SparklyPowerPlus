@@ -1,0 +1,11 @@
+{
+    "providers":[
+        {
+            "file":"sparklypower:doto_medium.ttf",
+            "shift":[0, 0],
+            "size":10,
+            "oversample":4,
+            "type":"ttf"
+        }
+    ]
+}

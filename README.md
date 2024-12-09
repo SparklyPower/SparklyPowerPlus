@@ -1,4 +1,4 @@
-﻿```
+```
    _____                  _    _       _____                       
   / ____|                | |  | |     |  __ \                      
  | (___  _ __   __ _ _ __| | _| |_   _| |__) |____      _____ _ __ 
@@ -33,3 +33,8 @@ resource packs originais, não é mesmo? :)
 
 ## AmberW
 * [Negative Space Font](https://www.spigotmc.org/threads/negative-space-font-resource-pack.440952/)
+
+## Otis McDonald
+
+* [Erykah](https://youtu.be/trxwj14KLog)
+  * Usado no `cutscene_background.ogg`

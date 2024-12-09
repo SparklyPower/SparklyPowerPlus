@@ -109,12 +109,21 @@
             "type":"bitmap"
         },
         {
-            "file":"sparklypower:gui/27_slots_guis.png",
+            "file":"sparklypower:font/white_1px.png",
             "chars":[
-                "\ue256\ue291"
+                "\ue292"
             ],
-            "height":87,
-            "ascent":23,
+            "height":1500,
+            "ascent":500,
+            "type":"bitmap"
+        },
+        {
+            "file":"sparklypower:font/stuff.png",
+            "chars":[
+                "\ue293\ue294\ue295\ue296"
+            ],
+            "height":256,
+            "ascent":10,
             "type":"bitmap"
         },
         {

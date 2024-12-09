@@ -107,6 +107,97 @@
             }
         ]
     },
+    "general.flamengo": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/flamengo",
+                "stream" : false
+            }
+        ]
+    },
+    "general.metro_trecho_sp": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/metro_trecho_sp",
+                "stream" : false,
+                "volume" : 0.4
+            }
+        ]
+    },
+    "general.metro_paraiso": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/metro_paraiso",
+                "stream" : false
+            }
+        ]
+    },
+    "general.discord_message": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/discord_message",
+                "stream" : false
+            }
+        ]
+    },
+    "general.wind_noises1": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/wind_noises1",
+                "stream" : false
+            }
+        ]
+    },
+    "general.office_ambiance": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/office_ambiance",
+                "stream" : false
+            }
+        ]
+    },
+    "general.rapaiz": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/rapaiz",
+                "stream" : false
+            }
+        ]
+    },
+    "general.minikit_boom": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/minikit_boom",
+                "stream" : false
+            }
+        ]
+    },
+    "tutorial.griefer_gas": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:tutorial/griefer_gas",
+                "stream" : false
+            }
+        ]
+    },
+    "cutscene.prelude.cutscene_background": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:cutscene/prelude/cutscene_background",
+                "stream" : false
+            }
+        ]
+    },
 
     "music_disc.club_classics": {
         "category" : "record",

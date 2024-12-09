@@ -1,0 +1,13 @@
+{
+    "providers":[
+        {
+            "file":"sparklypower:font/stuff.png",
+            "chars":[
+                "abcd"
+            ],
+            "height":256,
+            "ascent":10,
+            "type":"bitmap"
+        }
+    ]
+}

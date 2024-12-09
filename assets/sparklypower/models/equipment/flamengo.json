@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "horse_body": [
+      {
+        "texture": "sparklypower:flamengo"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "sparklypower:flamengo"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "sparklypower:flamengo"
+      }
+    ]
+  }
+}

@@ -3,6 +3,16 @@
   "textures": {
     "layer0": "minecraft:item/paper"
   },
+  "select": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "1",
+        "model": "sparklypower:gui/enchantment/credits"
+      }
+    ]
+  },
   "overrides": [
     { "predicate": { "custom_model_data": 1 }, "model": "sparklypower:gui/enchantment/credits" },
     { "predicate": { "custom_model_data": 2 }, "model": "sparklypower:gui/enchantment/1" },
@@ -242,6 +252,7 @@
     { "predicate": { "custom_model_data": 237 }, "model": "sparklypower:item/music_disc/music_disc_hino_nacional_brasil_cover_art" },
     { "predicate": { "custom_model_data": 238 }, "model": "sparklypower:item/music_disc/music_disc_fallen_kingdom" },
     { "predicate": { "custom_model_data": 239 }, "model": "sparklypower:item/music_disc/music_disc_fallen_kingdom_cover_art" },
-    { "predicate": { "custom_model_data": 240 }, "model": "minecraft:item/painting" }
+    { "predicate": { "custom_model_data": 240 }, "model": "minecraft:item/painting" },
+    { "predicate": { "custom_model_data": 241 }, "model": "sparklypower:item/pomni_jester_hat" }
   ]
 }
