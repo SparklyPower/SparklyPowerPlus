@@ -1,0 +1,20 @@
+{
+    "providers":[
+        {
+            "file":"sparklypower:gui/gestures/gestures_menu.png",
+            "chars":[
+                "a"
+            ],
+            "height":123,
+            "ascent":23,
+            "type":"bitmap"
+        },
+        {
+
+            "type":"space",
+            "advances":{
+                "x":-8
+            }
+        }
+    ]
+}

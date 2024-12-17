@@ -1,0 +1,32 @@
+{
+    "providers":[
+        {
+            "file":"sparklypower:gui/gestures/gestures.png",
+            "chars":[""],
+            "height":27,
+            "ascent":-26,
+            "type":"bitmap"
+        },
+        {
+
+            "type":"space",
+            "advances":{
+                "y":-156
+            }
+        },
+        {
+
+            "type":"space",
+            "advances":{
+                "x":-8
+            }
+        },
+        {
+
+            "type":"space",
+            "advances":{
+                "z":26
+            }
+        }
+    ]
+}

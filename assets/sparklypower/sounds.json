@@ -170,6 +170,44 @@
             }
         ]
     },
+    "general.oiia": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/oiia",
+                "stream" : false
+            }
+        ]
+    },
+    "general.lego_break": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:general/lego_break",
+                "stream" : false
+            }
+        ]
+    },
+    "gesture.bad_apple": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:gesture/bad_apple",
+                "stream" : false,
+                "attenuation_distance": 6
+            }
+        ]
+    },
+    "gesture.undertale_save": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:gesture/undertale_save",
+                "stream" : false,
+                "attenuation_distance": 6
+            }
+        ]
+    },
     "tutorial.griefer_gas": {
         "category" : "record",
         "sounds" : [

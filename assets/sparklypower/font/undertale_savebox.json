@@ -1,0 +1,13 @@
+{
+    "providers":[
+        {
+            "file":"sparklypower:font/undertale_savebox.png",
+            "chars":[
+                "ab"
+            ],
+            "height":16,
+            "ascent":10,
+            "type":"bitmap"
+        }
+    ]
+}

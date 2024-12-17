@@ -1,0 +1,27 @@
+{
+    "providers":[
+        {
+            "file":"sparklypower:font/chat_pixel_drawing.png",
+            "chars":[
+                "abcd"
+            ],
+            "height":9,
+            "ascent":8,
+            "type":"bitmap"
+        },
+        {
+
+            "type":"space",
+            "advances":{
+                "x":-1
+            }
+        },
+        {
+
+            "type":"space",
+            "advances":{
+                "z":-3
+            }
+        }
+    ]
+}
