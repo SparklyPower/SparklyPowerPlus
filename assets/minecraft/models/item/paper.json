@@ -253,6 +253,7 @@
     { "predicate": { "custom_model_data": 238 }, "model": "sparklypower:item/music_disc/music_disc_fallen_kingdom" },
     { "predicate": { "custom_model_data": 239 }, "model": "sparklypower:item/music_disc/music_disc_fallen_kingdom_cover_art" },
     { "predicate": { "custom_model_data": 240 }, "model": "minecraft:item/painting" },
-    { "predicate": { "custom_model_data": 241 }, "model": "sparklypower:item/pomni_jester_hat" }
+    { "predicate": { "custom_model_data": 241 }, "model": "sparklypower:item/pomni_jester_hat" },
+    { "predicate": { "custom_model_data": 242 }, "model": "sparklypower:item/squirrel_hat" }
   ]
 }
