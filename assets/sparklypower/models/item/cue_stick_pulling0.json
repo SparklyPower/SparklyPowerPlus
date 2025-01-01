@@ -1,0 +1,33 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "sparklypower:item/cue_stick",
+		"particle": "sparklypower:item/cue_stick"
+	},
+	"elements": [
+		{
+			"from": [7.5, 0, 0],
+			"to": [8.5, 1, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.5, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 1, 1, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 1], "texture": "#0"},
+				"south": {"uv": [1, 1, 2, 2], "texture": "#0"},
+				"west": {"uv": [16, 0, 0, 1], "texture": "#0"},
+				"up": {"uv": [16, 0, 0, 1], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 1], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0.25, 0, 0],
+			"translation": [0, 7, -8]
+		},
+		"firstperson_righthand": {
+			"rotation": [18.19, -1.83, 24.54],
+			"translation": [0, 9.5, 0]
+		}
+	}
+}

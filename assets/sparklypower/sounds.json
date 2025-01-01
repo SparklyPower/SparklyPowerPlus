@@ -208,6 +208,33 @@
             }
         ]
     },
+    "snooker.ball_clack": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:snooker/ball_clack",
+                "stream" : false
+            }
+        ]
+    },
+    "snooker.ball_wall": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:snooker/ball_wall",
+                "stream" : false
+            }
+        ]
+    },
+    "snooker.ball_pocket": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:snooker/ball_pocket",
+                "stream" : false
+            }
+        ]
+    },
     "tutorial.griefer_gas": {
         "category" : "record",
         "sounds" : [
