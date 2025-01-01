@@ -10,6 +10,9 @@ import java.io.File
 import javax.imageio.ImageIO
 
 private val jsonPrettyPrint = Json { prettyPrint = true }
+private val JsonIgnoreUnknownKeys = Json {
+    ignoreUnknownKeys = true
+}
 
 fun main(args: Array<String>) {
     for ((index, arg) in args.withIndex()) {
@@ -126,8 +129,8 @@ fun main(args: Array<String>) {
 
     // ===[ SOUNDS REMAPPER ]===
     // Copy the definitions
-    val minecraftNamespaceJavaSounds = Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "minecraft/sounds.json").readText())
-    val sparklyPowerNamespaceJavaSounds = Json.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "sparklypower/sounds.json").readText())
+    val minecraftNamespaceJavaSounds = JsonIgnoreUnknownKeys.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "minecraft/sounds.json").readText())
+    val sparklyPowerNamespaceJavaSounds = JsonIgnoreUnknownKeys.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "sparklypower/sounds.json").readText())
 
     // it is actually the same JSON format for the sound definition lmao
     val bedrockSoundDefinitions = mutableMapOf<String, MCJavaSoundDefinition>()
