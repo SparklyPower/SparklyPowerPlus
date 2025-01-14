@@ -1,0 +1,1699 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/enchantment/credits"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/enchantment/1"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/enchantment/2"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/enchantment/3"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/enchantment/4"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/enchantment/5"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/enchantment/left"
+                }
+            },
+            {
+                "threshold": 8,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/enchantment/right"
+                }
+            },
+            {
+                "threshold": 10,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_beach"
+                }
+            },
+            {
+                "threshold": 11,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_blue"
+                }
+            },
+            {
+                "threshold": 12,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_brasil"
+                }
+            },
+            {
+                "threshold": 13,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_brocade"
+                }
+            },
+            {
+                "threshold": 14,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_brown"
+                }
+            },
+            {
+                "threshold": 15,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_buggy"
+                }
+            },
+            {
+                "threshold": 16,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_cake"
+                }
+            },
+            {
+                "threshold": 17,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_camouflage"
+                }
+            },
+            {
+                "threshold": 18,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_crown"
+                }
+            },
+            {
+                "threshold": 19,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_deepling"
+                }
+            },
+            {
+                "threshold": 20,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_dragon"
+                }
+            },
+            {
+                "threshold": 21,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_energetic"
+                }
+            },
+            {
+                "threshold": 22,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_expedition"
+                }
+            },
+            {
+                "threshold": 23,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_fur"
+                }
+            },
+            {
+                "threshold": 24,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_gabipersonagem"
+                }
+            },
+            {
+                "threshold": 25,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_golden"
+                }
+            },
+            {
+                "threshold": 26,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_green"
+                }
+            },
+            {
+                "threshold": 27,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_grey"
+                }
+            },
+            {
+                "threshold": 28,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_heart"
+                }
+            },
+            {
+                "threshold": 29,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_holding"
+                }
+            },
+            {
+                "threshold": 30,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_jewelled"
+                }
+            },
+            {
+                "threshold": 31,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_loritta"
+                }
+            },
+            {
+                "threshold": 32,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_lorittapersonagem"
+                }
+            },
+            {
+                "threshold": 33,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_lorittapreto"
+                }
+            },
+            {
+                "threshold": 34,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_moderna"
+                }
+            },
+            {
+                "threshold": 35,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_moon"
+                }
+            },
+            {
+                "threshold": 36,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_orange"
+                }
+            },
+            {
+                "threshold": 37,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pantufapersonagem"
+                }
+            },
+            {
+                "threshold": 38,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pillow"
+                }
+            },
+            {
+                "threshold": 39,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pirate"
+                }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_powerpersonagem"
+                }
+            },
+            {
+                "threshold": 41,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pudim"
+                }
+            },
+            {
+                "threshold": 42,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_purple"
+                }
+            },
+            {
+                "threshold": 43,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_red"
+                }
+            },
+            {
+                "threshold": 44,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_santa"
+                }
+            },
+            {
+                "threshold": 45,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_yellow"
+                }
+            },
+            {
+                "threshold": 46,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_rainbow"
+                }
+            },
+            {
+                "threshold": 47,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/correios/up"
+                }
+            },
+            {
+                "threshold": 48,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/correios/down"
+                }
+            },
+            {
+                "threshold": 49,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/lori_angel"
+                }
+            },
+            {
+                "threshold": 50,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/lori_demon"
+                }
+            },
+            {
+                "threshold": 51,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_bread"
+                }
+            },
+            {
+                "threshold": 52,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_portugal"
+                }
+            },
+            {
+                "threshold": 53,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pride"
+                }
+            },
+            {
+                "threshold": 54,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_maconha"
+                }
+            },
+            {
+                "threshold": 55,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_coelho"
+                }
+            },
+            {
+                "threshold": 56,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_axolote"
+                }
+            },
+            {
+                "threshold": 57,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/mugs/lori_and_pantufa"
+                }
+            },
+            {
+                "threshold": 58,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/angel_halo"
+                }
+            },
+            {
+                "threshold": 59,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/steve"
+                }
+            },
+            {
+                "threshold": 60,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/brenooooow"
+                }
+            },
+            {
+                "threshold": 61,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/gessy"
+                }
+            },
+            {
+                "threshold": 62,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/herobrine"
+                }
+            },
+            {
+                "threshold": 63,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/jvgm45"
+                }
+            },
+            {
+                "threshold": 64,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/notdemon"
+                }
+            },
+            {
+                "threshold": 65,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/power"
+                }
+            },
+            {
+                "threshold": 66,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/theboy"
+                }
+            },
+            {
+                "threshold": 67,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/tod"
+                }
+            },
+            {
+                "threshold": 68,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/vegetagamers10"
+                }
+            },
+            {
+                "threshold": 69,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/zumzumzum"
+                }
+            },
+            {
+                "threshold": 70,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/_dittom_"
+                }
+            },
+            {
+                "threshold": 71,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/00arthurr"
+                }
+            },
+            {
+                "threshold": 72,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/alex"
+                }
+            },
+            {
+                "threshold": 73,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/d_elet"
+                }
+            },
+            {
+                "threshold": 74,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/deeemoniada"
+                }
+            },
+            {
+                "threshold": 75,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/gabriela"
+                }
+            },
+            {
+                "threshold": 76,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/pantufa"
+                }
+            },
+            {
+                "threshold": 77,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/loritta"
+                }
+            },
+            {
+                "threshold": 78,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/ynilzinha_"
+                }
+            },
+            {
+                "threshold": 79,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/announcement/unused_floppy_disc"
+                }
+            },
+            {
+                "threshold": 80,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/announcement/used_floppy_disc"
+                }
+            },
+            {
+                "threshold": 81,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/cancel"
+                }
+            },
+            {
+                "threshold": 82,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/confirm"
+                }
+            },
+            {
+                "threshold": 83,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/clan"
+                }
+            },
+            {
+                "threshold": 84,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/configurations"
+                }
+            },
+            {
+                "threshold": 85,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/events"
+                }
+            },
+            {
+                "threshold": 86,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/gambling"
+                }
+            },
+            {
+                "threshold": 87,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/kdr"
+                }
+            },
+            {
+                "threshold": 88,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/marriage"
+                }
+            },
+            {
+                "threshold": 89,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/mcmmo"
+                }
+            },
+            {
+                "threshold": 90,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/money"
+                }
+            },
+            {
+                "threshold": 91,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/anniversary/one_year"
+                }
+            },
+            {
+                "threshold": 92,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/anniversary/two_years"
+                }
+            },
+            {
+                "threshold": 93,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/anniversary/three_years"
+                }
+            },
+            {
+                "threshold": 94,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/anniversary/four_years"
+                }
+            },
+            {
+                "threshold": 95,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/anniversary/five_years"
+                }
+            },
+            {
+                "threshold": 96,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/anniversary/six_years"
+                }
+            },
+            {
+                "threshold": 97,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/announcements"
+                }
+            },
+            {
+                "threshold": 98,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/chat_event"
+                }
+            },
+            {
+                "threshold": 99,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/events"
+                }
+            },
+            {
+                "threshold": 100,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/gambling"
+                }
+            },
+            {
+                "threshold": 101,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/jetpack"
+                }
+            },
+            {
+                "threshold": 102,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/login"
+                }
+            },
+            {
+                "threshold": 103,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/private_messages"
+                }
+            },
+            {
+                "threshold": 104,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/server_messages"
+                }
+            },
+            {
+                "threshold": 105,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/thanos"
+                }
+            },
+            {
+                "threshold": 106,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/voting"
+                }
+            },
+            {
+                "threshold": 107,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/admin"
+                }
+            },
+            {
+                "threshold": 108,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/builder"
+                }
+            },
+            {
+                "threshold": 109,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/developer"
+                }
+            },
+            {
+                "threshold": 110,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/female_moderator"
+                }
+            },
+            {
+                "threshold": 111,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/male_moderator"
+                }
+            },
+            {
+                "threshold": 112,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/member"
+                }
+            },
+            {
+                "threshold": 113,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/owner"
+                }
+            },
+            {
+                "threshold": 114,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/support"
+                }
+            },
+            {
+                "threshold": 115,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/vip"
+                }
+            },
+            {
+                "threshold": 116,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/vip_plus"
+                }
+            },
+            {
+                "threshold": 117,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/ranks/vip_plus_plus"
+                }
+            },
+            {
+                "threshold": 118,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/status/banned"
+                }
+            },
+            {
+                "threshold": 119,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/status/offline"
+                }
+            },
+            {
+                "threshold": 120,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:gui/status/online"
+                }
+            },
+            {
+                "threshold": 121,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/layouts/loritta"
+                }
+            },
+            {
+                "threshold": 122,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/layouts/pantufa"
+                }
+            },
+            {
+                "threshold": 123,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/layouts/gabriela"
+                }
+            },
+            {
+                "threshold": 124,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/layouts/panels/light"
+                }
+            },
+            {
+                "threshold": 125,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/layouts/panels/dark"
+                }
+            },
+            {
+                "threshold": 126,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/change_layout"
+                }
+            },
+            {
+                "threshold": 127,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/preferences/chat_preferences"
+                }
+            },
+            {
+                "threshold": 128,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/shop"
+                }
+            },
+            {
+                "threshold": 129,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/paint_brush"
+                }
+            },
+            {
+                "threshold": 130,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/paint_bucket"
+                }
+            },
+            {
+                "threshold": 131,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/social/profile/statistics/speaker"
+                }
+            },
+            {
+                "threshold": 132,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/qsmp_eggs/richarlyson"
+                }
+            },
+            {
+                "threshold": 133,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/hariel/bone_kondzilla"
+                }
+            },
+            {
+                "threshold": 134,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/heart"
+                }
+            },
+            {
+                "threshold": 135,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/guis/raspadinha"
+                }
+            },
+            {
+                "threshold": 136,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/raspadinha/loritta"
+                }
+            },
+            {
+                "threshold": 137,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/raspadinha/pantufa"
+                }
+            },
+            {
+                "threshold": 138,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/raspadinha/gabriela"
+                }
+            },
+            {
+                "threshold": 139,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/raspadinha/dokyo"
+                }
+            },
+            {
+                "threshold": 140,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/raspadinha/gessy"
+                }
+            },
+            {
+                "threshold": 141,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/raspadinha/tobias"
+                }
+            },
+            {
+                "threshold": 142,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/loritta"
+                }
+            },
+            {
+                "threshold": 143,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/pantufa"
+                }
+            },
+            {
+                "threshold": 144,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/power"
+                }
+            },
+            {
+                "threshold": 145,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/gabriela"
+                }
+            },
+            {
+                "threshold": 146,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/tod"
+                }
+            },
+            {
+                "threshold": 147,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/jvgm45"
+                }
+            },
+            {
+                "threshold": 148,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/gessy"
+                }
+            },
+            {
+                "threshold": 149,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/ynilzinha_"
+                }
+            },
+            {
+                "threshold": 150,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/hariel/gorro_panda"
+                }
+            },
+            {
+                "threshold": 151,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/hariel/gorro_raposa"
+                }
+            },
+            {
+                "threshold": 152,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/hariel/gorro_lobo"
+                }
+            },
+            {
+                "threshold": 153,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/hariel/marshmello"
+                }
+            },
+            {
+                "threshold": 154,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/hariel/tailshead"
+                }
+            },
+            {
+                "threshold": 155,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/_dittom_"
+                }
+            },
+            {
+                "threshold": 156,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/notdemon"
+                }
+            },
+            {
+                "threshold": 157,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/breno"
+                }
+            },
+            {
+                "threshold": 158,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/steve"
+                }
+            },
+            {
+                "threshold": 159,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/alex"
+                }
+            },
+            {
+                "threshold": 160,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/herobrine"
+                }
+            },
+            {
+                "threshold": 161,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/vegetagamers10"
+                }
+            },
+            {
+                "threshold": 162,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/zumzumzum"
+                }
+            },
+            {
+                "threshold": 163,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/birthday_hat/birthday9_hat_black"
+                }
+            },
+            {
+                "threshold": 164,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/birthday_hat/birthday9_hat_blue"
+                }
+            },
+            {
+                "threshold": 165,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/birthday_hat/birthday9_hat_darkblue"
+                }
+            },
+            {
+                "threshold": 166,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/birthday_hat/birthday9_hat_green"
+                }
+            },
+            {
+                "threshold": 167,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/birthday_hat/birthday9_hat_pink"
+                }
+            },
+            {
+                "threshold": 168,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/birthday_hat/birthday9_hat_purple"
+                }
+            },
+            {
+                "threshold": 169,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/birthday_hat/birthday9_hat_yellow"
+                }
+            },
+            {
+                "threshold": 170,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_arthurr"
+                }
+            },
+            {
+                "threshold": 171,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_delet"
+                }
+            },
+            {
+                "threshold": 172,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_dittom"
+                }
+            },
+            {
+                "threshold": 173,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_gabriela"
+                }
+            },
+            {
+                "threshold": 174,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_jvgm45"
+                }
+            },
+            {
+                "threshold": 175,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_loritta"
+                }
+            },
+            {
+                "threshold": 176,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_pantufa"
+                }
+            },
+            {
+                "threshold": 177,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_paum"
+                }
+            },
+            {
+                "threshold": 178,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_power"
+                }
+            },
+            {
+                "threshold": 179,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_tbag"
+                }
+            },
+            {
+                "threshold": 180,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_vegeta"
+                }
+            },
+            {
+                "threshold": 181,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_zum"
+                }
+            },
+            {
+                "threshold": 182,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_arthurr"
+                }
+            },
+            {
+                "threshold": 183,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_delet"
+                }
+            },
+            {
+                "threshold": 184,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_dittom"
+                }
+            },
+            {
+                "threshold": 185,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_gabriela"
+                }
+            },
+            {
+                "threshold": 186,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_jvgm45"
+                }
+            },
+            {
+                "threshold": 187,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_loritta"
+                }
+            },
+            {
+                "threshold": 188,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_pantufa"
+                }
+            },
+            {
+                "threshold": 189,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_paum"
+                }
+            },
+            {
+                "threshold": 190,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_power"
+                }
+            },
+            {
+                "threshold": 191,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_tbag"
+                }
+            },
+            {
+                "threshold": 192,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_vegeta"
+                }
+            },
+            {
+                "threshold": 193,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_zum"
+                }
+            },
+            {
+                "threshold": 194,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/chimarrao/chimarrao_empty_brown"
+                }
+            },
+            {
+                "threshold": 195,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/chimarrao/chimarrao_empty_lori_white"
+                }
+            },
+            {
+                "threshold": 196,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/chimarrao/chimarrao_empty_lori_black"
+                }
+            },
+            {
+                "threshold": 197,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/crazygabii"
+                }
+            },
+            {
+                "threshold": 198,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_common"
+                }
+            },
+            {
+                "threshold": 199,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_uncommon"
+                }
+            },
+            {
+                "threshold": 200,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_rare"
+                }
+            },
+            {
+                "threshold": 201,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_epic"
+                }
+            },
+            {
+                "threshold": 202,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_legendary"
+                }
+            },
+            {
+                "threshold": 203,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_special"
+                }
+            },
+            {
+                "threshold": 204,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/fancy_menu/loja_cash/button_30days"
+                }
+            },
+            {
+                "threshold": 205,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/fancy_menu/loja_cash/button_90days"
+                }
+            },
+            {
+                "threshold": 206,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/fancy_menu/loja_cash/button_180days"
+                }
+            },
+            {
+                "threshold": 207,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/thecauagames"
+                }
+            },
+            {
+                "threshold": 208,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/lightt2148"
+                }
+            },
+            {
+                "threshold": 209,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/pansoka"
+                }
+            },
+            {
+                "threshold": 210,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/otnt_"
+                }
+            },
+            {
+                "threshold": 211,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/mercuryx001"
+                }
+            },
+            {
+                "threshold": 212,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/plushies/standing/saturnyx001"
+                }
+            },
+            {
+                "threshold": 213,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/christmas_hat/santa_hat"
+                }
+            },
+            {
+                "threshold": 214,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/cake_hat/cake_hat"
+                }
+            },
+            {
+                "threshold": 215,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_club_classics"
+                }
+            },
+            {
+                "threshold": 216,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_motteke_sailor_fuku"
+                }
+            },
+            {
+                "threshold": 217,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_ta_facil_dizer_que_me_ama"
+                }
+            },
+            {
+                "threshold": 218,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/moai_head/moai_head"
+                }
+            },
+            {
+                "threshold": 219,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/shikanoko_antlers/shikanoko_antlers"
+                }
+            },
+            {
+                "threshold": 220,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/bnuy_ears"
+                }
+            },
+            {
+                "threshold": 221,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/deal_with_it_sunglasses"
+                }
+            },
+            {
+                "threshold": 222,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_club_classics_cover_art"
+                }
+            },
+            {
+                "threshold": 223,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_motteke_sailor_fuku_cover_art"
+                }
+            },
+            {
+                "threshold": 224,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_ta_facil_dizer_que_me_ama_cover_art"
+                }
+            },
+            {
+                "threshold": 225,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/blahaj/blahaj"
+                }
+            },
+            {
+                "threshold": 226,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_two_months_off"
+                }
+            },
+            {
+                "threshold": 227,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_two_months_off_cover_art"
+                }
+            },
+            {
+                "threshold": 228,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_live_and_learn"
+                }
+            },
+            {
+                "threshold": 229,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_live_and_learn_cover_art"
+                }
+            },
+            {
+                "threshold": 230,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_take_my_time"
+                }
+            },
+            {
+                "threshold": 231,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_take_my_time_cover_art"
+                }
+            },
+            {
+                "threshold": 232,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_bad_apple"
+                }
+            },
+            {
+                "threshold": 233,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_bad_apple_cover_art"
+                }
+            },
+            {
+                "threshold": 234,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_chala_head_chala"
+                }
+            },
+            {
+                "threshold": 235,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_chala_head_chala_cover_art"
+                }
+            },
+            {
+                "threshold": 236,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_hino_nacional_brasil"
+                }
+            },
+            {
+                "threshold": 237,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_hino_nacional_brasil_cover_art"
+                }
+            },
+            {
+                "threshold": 238,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_fallen_kingdom"
+                }
+            },
+            {
+                "threshold": 239,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/music_disc/music_disc_fallen_kingdom_cover_art"
+                }
+            },
+            {
+                "threshold": 240,
+                "model": {
+                    "type": "model",
+                    "model": "minecraft:item/painting"
+                }
+            },
+            {
+                "threshold": 241,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/pomni_jester_hat"
+                }
+            },
+            {
+                "threshold": 242,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/squirrel_hat"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/paper"
+        }
+    }
+}

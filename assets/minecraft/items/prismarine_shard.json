@@ -1,0 +1,33 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/ruby"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/estalinho/red"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/estalinho/green"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/prismarine_shard"
+        }
+    }
+}
