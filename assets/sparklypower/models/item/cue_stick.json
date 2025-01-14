@@ -29,13 +29,5 @@
 			"rotation": [18.19, -1.83, 24.54],
 			"translation": [0, 9.5, 0]
 		}
-	},
-	"overrides": [
-        {
-            "predicate": {
-                "pulling": 1
-            },
-            "model": "sparklypower:item/cue_stick_pulling0"
-        }
-    ]
+	}
 }
