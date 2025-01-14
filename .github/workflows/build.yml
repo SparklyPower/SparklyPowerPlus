@@ -33,10 +33,11 @@ jobs:
       run: echo "::set-output name=date::$(date +'%d%m%Y')"
         
     - name: Replace date and hash on the mcmeta file
+      # We use @ instead of / in the delimiter because dates contain /
       run: |
         date=$(date +"%d/%m/%Y")
         hash=$(git rev-parse --short HEAD)
-        sed -i "s/{date}/$date/g; s/{hash}/$hash/g" pack.mcmeta
+        sed -i "s@{date}@$date@g; s@{hash}@$hash@g" pack.mcmeta
       
     - name: Compress Resource Pack
       # This will also exclude the ".git" and ".github" folders from the Resource Pack
