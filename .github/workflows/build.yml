@@ -26,7 +26,12 @@ jobs:
     - name: Setup Java JDK
       uses: actions/setup-java@v1.4.3
       with:
-        java-version: 17
+        java-version: 21
+
+    - name: Set Time Zone
+      uses: szenius/set-timezone@v2.0
+      with:
+        timezoneLinux: "America/Sao_Paulo"
 
     - name: Get current date
       id: date
