@@ -20,20 +20,18 @@ private val JsonIgnoreUnknownKeys = Json {
 
 // A script to do resource pack related things
 fun main(args: Array<String>) {
-    val option = args[0]
-
     // ===[ POST CONVERSION RESOURCE PACK MODIFICATION ]===
     // Used to make things prettier to convert things that java2bedrock.sh do not handle
 
     // This is the root of the Java Edition resource pack
-    val inputPackFolder = File(args[1])
+    val inputPackFolder = File(args[0])
     val inputAssetsFolder = File(inputPackFolder, "assets")
 
     // This is the output folder of the Bedrock resource pack
-    val outputPackFolder = File(args[2])
+    val outputPackFolder = File(args[1])
 
     // And this is the output file of the Geyser mappings
-    val geyserMappingsFile = File(args[3])
+    val geyserMappingsFile = File(args[2])
 
     outputPackFolder.mkdirs()
 
