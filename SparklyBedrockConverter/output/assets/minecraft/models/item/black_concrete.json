@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/black_concrete","overrides":[{"predicate":{"custom_model_data":1},"model":"sparklypower:item/asphalt_block"}]}

@@ -1,8 +1,8 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.7.10"
-    kotlin("plugin.serialization") version "1.7.10"
+    kotlin("jvm") version "2.0.20"
+    kotlin("plugin.serialization") version "2.0.20"
     application
 }
 
@@ -14,8 +14,13 @@ repositories {
 }
 
 dependencies {
+    implementation("io.ktor:ktor-client-cio:3.0.3")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.0")
     testImplementation(kotlin("test"))
+}
+
+kotlin {
+    jvmToolchain(21)
 }
 
 application {
@@ -24,8 +29,4 @@ application {
 
 tasks.test {
     useJUnitPlatform()
-}
-
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "1.8"
 }

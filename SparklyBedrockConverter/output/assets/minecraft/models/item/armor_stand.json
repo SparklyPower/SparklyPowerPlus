@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/armor_stand","overrides":[{"predicate":{"custom_model_data":1},"model":"sparklypower:gui/plus_member"}]}

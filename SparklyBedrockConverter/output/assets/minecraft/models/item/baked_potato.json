@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/baked_potato","overrides":[{"predicate":{"custom_model_data":1},"model":"item/custom/french_fries"},{"predicate":{"custom_model_data":2},"model":"item/custom/microwave"}]}

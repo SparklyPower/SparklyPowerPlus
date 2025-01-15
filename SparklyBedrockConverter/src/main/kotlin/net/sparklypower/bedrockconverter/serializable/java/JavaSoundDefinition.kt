@@ -1,9 +1,9 @@
-package net.sparklypower.bedrockconverter
+package net.sparklypower.bedrockconverter.serializable.java
 
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class MCJavaSoundDefinition(
+data class JavaSoundDefinition(
     val category: String,
     val sounds: List<MCJavaSound>
 ) {

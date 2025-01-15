@@ -1,30 +1,40 @@
 package net.sparklypower.bedrockconverter
 
-import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonObject
 import kotlinx.serialization.json.jsonObject
+import net.sparklypower.bedrockconverter.serializable.bedrock.BedrockSoundDefinitions
+import net.sparklypower.bedrockconverter.serializable.java.JavaSoundDefinition
 import java.awt.image.BufferedImage
 import java.io.File
 import javax.imageio.ImageIO
+import kotlin.collections.component1
+import kotlin.collections.component2
+import kotlin.collections.set
 
 private val jsonPrettyPrint = Json { prettyPrint = true }
 private val JsonIgnoreUnknownKeys = Json {
     ignoreUnknownKeys = true
 }
 
+// A script to do resource pack related things
 fun main(args: Array<String>) {
-    for ((index, arg) in args.withIndex()) {
-        println("args[$index]: $arg")
-    }
+    val option = args[0]
 
-    val inputPackFolder = File(args[0])
+    // ===[ POST CONVERSION RESOURCE PACK MODIFICATION ]===
+    // Used to make things prettier to convert things that java2bedrock.sh do not handle
+
+    // This is the root of the Java Edition resource pack
+    val inputPackFolder = File(args[1])
     val inputAssetsFolder = File(inputPackFolder, "assets")
-    val outputPackFolder = File(args[1])
-    val geyserMappingsFile = File(args[2])
 
-    // outputPackFolder.deleteRecursively()
+    // This is the output folder of the Bedrock resource pack
+    val outputPackFolder = File(args[2])
+
+    // And this is the output file of the Geyser mappings
+    val geyserMappingsFile = File(args[3])
+
     outputPackFolder.mkdirs()
 
     // STUFF THAT CANNOT BE REMAPPED:
@@ -33,10 +43,10 @@ fun main(args: Array<String>) {
     // ===[ NAIVE FILE REMAPPER ]===
     val fileRemap = mapOf(
         // Armor
-        "minecraft/textures/models/armor/chainmail_layer_1.png" to "textures/models/armor/chain_1.png",
+        // "minecraft/textures/models/armor/chainmail_layer_1.png" to "textures/models/armor/chain_1.png",
 
         // Items
-        "minecraft/textures/item/chainmail_chestplate.png" to "textures/items/chainmail_chestplate.png",
+        // "minecraft/textures/item/chainmail_chestplate.png" to "textures/items/chainmail_chestplate.png",
 
         // Signs
         "minecraft/textures/entity/signs/oak.png" to "textures/entity/sign.png",
@@ -129,11 +139,11 @@ fun main(args: Array<String>) {
 
     // ===[ SOUNDS REMAPPER ]===
     // Copy the definitions
-    val minecraftNamespaceJavaSounds = JsonIgnoreUnknownKeys.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "minecraft/sounds.json").readText())
-    val sparklyPowerNamespaceJavaSounds = JsonIgnoreUnknownKeys.decodeFromString<Map<String, MCJavaSoundDefinition>>(File(inputAssetsFolder, "sparklypower/sounds.json").readText())
+    val minecraftNamespaceJavaSounds = JsonIgnoreUnknownKeys.decodeFromString<Map<String, JavaSoundDefinition>>(File(inputAssetsFolder, "minecraft/sounds.json").readText())
+    val sparklyPowerNamespaceJavaSounds = JsonIgnoreUnknownKeys.decodeFromString<Map<String, JavaSoundDefinition>>(File(inputAssetsFolder, "sparklypower/sounds.json").readText())
 
     // it is actually the same JSON format for the sound definition lmao
-    val bedrockSoundDefinitions = mutableMapOf<String, MCJavaSoundDefinition>()
+    val bedrockSoundDefinitions = mutableMapOf<String, JavaSoundDefinition>()
 
     for (javaSoundDefinition in minecraftNamespaceJavaSounds) {
         bedrockSoundDefinitions[javaSoundDefinition.key] = javaSoundDefinition.value
@@ -158,7 +168,7 @@ fun main(args: Array<String>) {
             )
     }
 
-    val beSounds = MCBedrockSoundDefinitions(
+    val beSounds = BedrockSoundDefinitions(
         "1.14.0",
         bedrockSoundDefinitions
     )
