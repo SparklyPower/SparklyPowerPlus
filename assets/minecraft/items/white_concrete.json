@@ -13,7 +13,7 @@
         ],
         "fallback": {
             "type": "model",
-            "model": "minecraft:item/white_concrete"
+            "model": "minecraft:block/white_concrete"
         }
     }
 }
