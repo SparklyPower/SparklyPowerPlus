@@ -1,0 +1,7 @@
+{
+ "parent": "item/light_gray_stained_glass_pane_parent",
+ "overrides": [
+    {"predicate": {"custom_model_data":1}, "model": "item/custom/empty_cell"},
+    {"predicate": {"custom_model_data":2}, "model": "sparklypower:item/invisible"}
+ ]
+}
