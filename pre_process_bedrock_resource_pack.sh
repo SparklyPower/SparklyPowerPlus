@@ -2,4 +2,4 @@
 rm assets/minecraft/items/filled_map.json
 
 # Copy the overlay bedrock folder to here folder
-cp -r overlay_bedrock/ .
+cp -r overlay_bedrock/* .
