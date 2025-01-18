@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "sparklypower:item/pool_table",
-		"particle": "sparklypower:item/pool_table"
+		"0": "sparklypower:item/pool_table_dark_oak_green",
+		"particle": "sparklypower:item/pool_table_dark_oak_green"
 	},
 	"elements": [
 		{

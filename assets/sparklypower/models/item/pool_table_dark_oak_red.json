@@ -1,0 +1,7 @@
+{
+	"parent": "sparklypower:item/pool_table",
+	"textures": {
+		"0": "sparklypower:item/pool_table_dark_oak_red",
+		"particle": "sparklypower:item/pool_table_dark_oak_red"
+	}
+}
