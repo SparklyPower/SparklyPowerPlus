@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "sparklypower:item/cue_stick_chalk",
+    "tints": [
+      {
+        "type": "minecraft:map_color",
+        "default": 16777215
+      }
+    ]
+  }
+}

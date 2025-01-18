@@ -235,6 +235,24 @@
             }
         ]
     },
+    "snooker.cue_stick_hit": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:snooker/cue_stick_hit",
+                "stream" : false
+            }
+        ]
+    },
+    "snooker.cue_stick_chalk": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:snooker/cue_stick_chalk",
+                "stream" : false
+            }
+        ]
+    },
     "tutorial.griefer_gas": {
         "category" : "record",
         "sounds" : [

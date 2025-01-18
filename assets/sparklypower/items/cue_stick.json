@@ -3,11 +3,23 @@
     "type": "minecraft:condition",
     "on_false": {
       "type": "minecraft:model",
-      "model": "sparklypower:item/cue_stick"
+      "model": "sparklypower:item/cue_stick",
+      "tints": [
+        {
+          "type": "minecraft:map_color",
+          "default": 16777215
+        }
+      ]
     },
     "on_true": {
       "type": "minecraft:model",
-      "model": "sparklypower:item/cue_stick_pulling0"
+      "model": "sparklypower:item/cue_stick_pulling0",
+      "tints": [
+        {
+          "type": "minecraft:map_color",
+          "default": 16777215
+        }
+      ]
     },
     "property": "minecraft:using_item"
   }
