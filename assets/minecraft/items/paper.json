@@ -1689,6 +1689,13 @@
                     "type": "model",
                     "model": "sparklypower:item/squirrel_hat"
                 }
+            },
+            {
+                "threshold": 243,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/sleepy_squirrel"
+                }
             }
         ],
         "fallback": {
