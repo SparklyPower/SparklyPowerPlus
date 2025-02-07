@@ -1696,6 +1696,27 @@
                     "type": "model",
                     "model": "sparklypower:item/sleepy_squirrel"
                 }
+            },
+            {
+                "threshold": 244,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/key"
+                }
+            },
+            {
+                "threshold": 245,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/microphone"
+                }
+            },
+            {
+                "threshold": 246,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/top_hat"
+                }
             }
         ],
         "fallback": {
