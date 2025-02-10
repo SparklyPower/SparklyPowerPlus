@@ -1717,6 +1717,20 @@
                     "type": "model",
                     "model": "sparklypower:item/top_hat"
                 }
+            },
+            {
+                "threshold": 247,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/chaves_hat"
+                }
+            },
+            {
+                "threshold": 248,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/hatsune_miku_hair"
+                }
             }
         ],
         "fallback": {
