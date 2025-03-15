@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/deco/laptop",
+	"textures": {
+		"0": "item/deco/laptop/pink"
+	}
+}

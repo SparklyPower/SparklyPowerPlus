@@ -1,0 +1,7 @@
+{
+	"parent": "item/custom/deco/monitor2",
+	"textures": {
+		"0": "item/deco/monitor/dragon",
+		"1": "item/deco/dscreen"
+	}
+}

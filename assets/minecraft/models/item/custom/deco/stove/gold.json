@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/deco/stove",
+	"textures": {
+		"0": "item/deco/stove/gold"
+	}
+}
