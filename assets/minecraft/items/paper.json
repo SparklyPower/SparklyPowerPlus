@@ -1731,6 +1731,13 @@
                     "type": "model",
                     "model": "sparklypower:item/hatsune_miku_hair"
                 }
+            },
+            {
+                "threshold": 249,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/straw_hat"
+                }
             }
         ],
         "fallback": {
