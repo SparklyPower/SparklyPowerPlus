@@ -262,7 +262,8 @@
 			"translation": [0, 15, -0.25]
 		},
 		"fixed": {
-			"translation": [0, 0, -7.25]
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -7]
 		}
 	},
 	"groups": [
