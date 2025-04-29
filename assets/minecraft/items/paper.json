@@ -1738,6 +1738,265 @@
                     "type": "model",
                     "model": "sparklypower:item/straw_hat"
                 }
+            },
+            {
+                "threshold": 250,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/mob_cage"
+                }
+            },
+            {
+                "threshold": 251,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_white"
+                }
+            },
+            {
+                "threshold": 252,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_gray"
+                }
+            },
+            {
+                "threshold": 253,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_black"
+                }
+            },
+            {
+                "threshold": 254,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_salmon"
+                }
+            },
+            {
+                "threshold": 255,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_tomato"
+                }
+            },
+            {
+                "threshold": 256,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_brown"
+                }
+            },
+            {
+                "threshold": 257,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_darkslategray"
+                }
+            },
+            {
+                "threshold": 258,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_crimson"
+                }
+            },
+            {
+                "threshold": 259,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_deeppink"
+                }
+            },
+            {
+                "threshold": 260,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_fuchsia"
+                }
+            },
+            {
+                "threshold": 261,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_violet"
+                }
+            },
+            {
+                "threshold": 262,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_plum"
+                }
+            },
+            {
+                "threshold": 263,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_mediumpurple"
+                }
+            },
+            {
+                "threshold": 264,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_purple"
+                }
+            },
+            {
+                "threshold": 265,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_darkslategray2"
+                }
+            },
+            {
+                "threshold": 266,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_darkslateblue"
+                }
+            },
+            {
+                "threshold": 267,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_blue"
+                }
+            },
+            {
+                "threshold": 268,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_royalblue"
+                }
+            },
+            {
+                "threshold": 269,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_deepskyblue"
+                }
+            },
+            {
+                "threshold": 270,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_aqua"
+                }
+            },
+            {
+                "threshold": 271,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_aquamarine"
+                }
+            },
+            {
+                "threshold": 272,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_palegreen"
+                }
+            },
+            {
+                "threshold": 273,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_mediumseagreen"
+                }
+            },
+            {
+                "threshold": 274,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_lime"
+                }
+            },
+            {
+                "threshold": 275,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_chartreuse"
+                }
+            },
+            {
+                "threshold": 276,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_olive"
+                }
+            },
+            {
+                "threshold": 277,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_darkolivegreen"
+                }
+            },
+            {
+                "threshold": 278,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_darkslategray2"
+                }
+            },
+            {
+                "threshold": 279,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_khaki"
+                }
+            },
+            {
+                "threshold": 280,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_gold"
+                }
+            },
+            {
+                "threshold": 281,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_darkgoldenrod"
+                }
+            },
+            {
+                "threshold": 282,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_darkorange"
+                }
+            },
+            {
+                "threshold": 283,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_tomato2"
+                }
+            },
+            {
+                "threshold": 284,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_saddlebrown"
+                }
+            },
+            {
+                "threshold": 285,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_darkolivegreen2"
+                }
+            },
+            {
+                "threshold": 286,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/semibots/semibot_peru"
+                }
             }
         ],
         "fallback": {

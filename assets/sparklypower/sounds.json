@@ -253,6 +253,24 @@
             }
         ]
     },
+    "mob_cage.release": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:mob_cage/release",
+                "stream" : false
+            }
+        ]
+    },
+    "mob_cage.capture": {
+        "category" : "record",
+        "sounds" : [
+            {
+                "name" : "sparklypower:mob_cage/capture",
+                "stream" : false
+            }
+        ]
+    },
     "tutorial.griefer_gas": {
         "category" : "record",
         "sounds" : [

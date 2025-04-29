@@ -1,0 +1,6 @@
+{
+	"parent": "sparklypower:item/semibots/semibot",
+	"textures": {
+		"0": "sparklypower:item/semibots/semibot_darkslategray2"
+	}
+}
