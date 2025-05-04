@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/deco/toilet",
+	"textures": {
+		"0": "item/deco/toilet/diamond"
+	}
+}
