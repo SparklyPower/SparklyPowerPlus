@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "sparklypower:item/backpack/backpack_sticker_rarity_rare_full"
+    }
+}
