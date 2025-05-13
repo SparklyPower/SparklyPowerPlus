@@ -1997,6 +1997,517 @@
                     "type": "model",
                     "model": "sparklypower:item/semibots/semibot_peru"
                 }
+            },
+            {
+                "threshold": 287,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_beach_full"
+                }
+            },
+            {
+                "threshold": 288,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_blue_full"
+                }
+            },
+            {
+                "threshold": 289,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_brasil_full"
+                }
+            },
+            {
+                "threshold": 290,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_brocade_full"
+                }
+            },
+            {
+                "threshold": 291,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_brown_full"
+                }
+            },
+            {
+                "threshold": 292,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_buggy_full"
+                }
+            },
+            {
+                "threshold": 293,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_cake_full"
+                }
+            },
+            {
+                "threshold": 294,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_camouflage_full"
+                }
+            },
+            {
+                "threshold": 295,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_crown_full"
+                }
+            },
+            {
+                "threshold": 296,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_deepling_full"
+                }
+            },
+            {
+                "threshold": 297,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_dragon_full"
+                }
+            },
+            {
+                "threshold": 298,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_energetic_full"
+                }
+            },
+            {
+                "threshold": 299,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_expedition_full"
+                }
+            },
+            {
+                "threshold": 300,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_fur_full"
+                }
+            },
+            {
+                "threshold": 301,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_gabipersonagem_full"
+                }
+            },
+            {
+                "threshold": 302,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_golden_full"
+                }
+            },
+            {
+                "threshold": 303,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_green_full"
+                }
+            },
+            {
+                "threshold": 304,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_grey_full"
+                }
+            },
+            {
+                "threshold": 305,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_heart_full"
+                }
+            },
+            {
+                "threshold": 306,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_holding_full"
+                }
+            },
+            {
+                "threshold": 307,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_jewelled_full"
+                }
+            },
+            {
+                "threshold": 308,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_loritta_full"
+                }
+            },
+            {
+                "threshold": 309,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_lorittapersonagem_full"
+                }
+            },
+            {
+                "threshold": 310,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_grey_full"
+                }
+            },
+            {
+                "threshold": 311,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_moderna_full"
+                }
+            },
+            {
+                "threshold": 312,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_moon_full"
+                }
+            },
+            {
+                "threshold": 313,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_orange_full"
+                }
+            },
+            {
+                "threshold": 314,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pantufapersonagem_full"
+                }
+            },
+            {
+                "threshold": 315,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pillow_full"
+                }
+            },
+            {
+                "threshold": 316,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pirate_full"
+                }
+            },
+            {
+                "threshold": 317,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_powerpersonagem_full"
+                }
+            },
+            {
+                "threshold": 318,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pudim_full"
+                }
+            },
+            {
+                "threshold": 319,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_purple_full"
+                }
+            },
+            {
+                "threshold": 320,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_red_full"
+                }
+            },
+            {
+                "threshold": 321,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_santa_full"
+                }
+            },
+            {
+                "threshold": 322,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_yellow_full"
+                }
+            },
+            {
+                "threshold": 323,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_rainbow_full"
+                }
+            },
+            {
+                "threshold": 324,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_bread_full"
+                }
+            },
+            {
+                "threshold": 325,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_portugal_full"
+                }
+            },
+            {
+                "threshold": 326,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_pride_full"
+                }
+            },
+            {
+                "threshold": 327,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_maconha_full"
+                }
+            },
+            {
+                "threshold": 328,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_coelho_full"
+                }
+            },
+            {
+                "threshold": 329,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_axolote_full"
+                }
+            },
+            {
+                "threshold": 330,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_arthurr_full"
+                }
+            },
+            {
+                "threshold": 331,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_delet_full"
+                }
+            },
+            {
+                "threshold": 332,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_dittom_full"
+                }
+            },
+            {
+                "threshold": 333,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_gabriela_full"
+                }
+            },
+            {
+                "threshold": 334,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_jvgm45_full"
+                }
+            },
+            {
+                "threshold": 335,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_loritta_full"
+                }
+            },
+            {
+                "threshold": 336,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_pantufa_full"
+                }
+            },
+            {
+                "threshold": 337,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_paum_full"
+                }
+            },
+            {
+                "threshold": 338,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_power_full"
+                }
+            },
+            {
+                "threshold": 339,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_tbag_full"
+                }
+            },
+            {
+                "threshold": 340,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_vegeta_full"
+                }
+            },
+            {
+                "threshold": 341,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_white_zum_full"
+                }
+            },
+            {
+                "threshold": 342,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_arthurr_full"
+                }
+            },
+            {
+                "threshold": 343,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_delet_full"
+                }
+            },
+            {
+                "threshold": 344,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_dittom_full"
+                }
+            },
+            {
+                "threshold": 345,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_gabriela_full"
+                }
+            },
+            {
+                "threshold": 346,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_jvgm45_full"
+                }
+            },
+            {
+                "threshold": 347,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_loritta_full"
+                }
+            },
+            {
+                "threshold": 348,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_pantufa_full"
+                }
+            },
+            {
+                "threshold": 349,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_paum_full"
+                }
+            },
+            {
+                "threshold": 350,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_power_full"
+                }
+            },
+            {
+                "threshold": 351,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_tbag_full"
+                }
+            },
+            {
+                "threshold": 352,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_vegeta_full"
+                }
+            },
+            {
+                "threshold": 353,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_birthday9_black_zum_full"
+                }
+            },
+            {
+                "threshold": 354,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_common_full"
+                }
+            },
+            {
+                "threshold": 355,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_uncommon_full"
+                }
+            },
+            {
+                "threshold": 356,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_rare_full"
+                }
+            },
+            {
+                "threshold": 357,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_epic_full"
+                }
+            },
+            {
+                "threshold": 358,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_legendary_full"
+                }
+            },
+            {
+                "threshold": 359,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_sticker_rarity_special_full"
+                }
             }
         ],
         "fallback": {
