@@ -18,6 +18,7 @@ jobs:
     # java2bedrock REQUIRES jq 1.6, and fails if you have a newer jq version
     - name: Install java2bedrock.sh dependencies
       run: |
+        sudo apt-get update
         sudo apt-get install moreutils imagemagick unzip zip uuid-runtime
         sudo wget -O /usr/bin/jq "https://github.com/jqlang/jq/releases/download/jq-1.6/jq-linux64"
         sudo npm install -g npm@9.2.0
