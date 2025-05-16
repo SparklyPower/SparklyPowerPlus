@@ -322,7 +322,7 @@
     { "predicate": { "custom_model_data": 307 }, "model": "sparklypower:item/backpack/backpack_jewelled_full" },
     { "predicate": { "custom_model_data": 308 }, "model": "sparklypower:item/backpack/backpack_loritta_full" },
     { "predicate": { "custom_model_data": 309 }, "model": "sparklypower:item/backpack/backpack_lorittapersonagem_full" },
-    { "predicate": { "custom_model_data": 310 }, "model": "sparklypower:item/backpack/backpack_grey_full" },
+    { "predicate": { "custom_model_data": 310 }, "model": "sparklypower:item/backpack/backpack_lorittapreto_full" },
     { "predicate": { "custom_model_data": 311 }, "model": "sparklypower:item/backpack/backpack_moderna_full" },
     { "predicate": { "custom_model_data": 312 }, "model": "sparklypower:item/backpack/backpack_moon_full" },
     { "predicate": { "custom_model_data": 313 }, "model": "sparklypower:item/backpack/backpack_orange_full" },
