@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "sparklypower:item/backpack/backpack_energetic"
+        "layer0": "sparklypower:item/backpack/backpack_energetic_full"
     }
 }
