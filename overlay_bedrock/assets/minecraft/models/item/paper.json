@@ -371,7 +371,8 @@
     { "predicate": { "custom_model_data": 356 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_rare_full" },
     { "predicate": { "custom_model_data": 357 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_epic_full" },
     { "predicate": { "custom_model_data": 358 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_legendary_full" },
-    { "predicate": { "custom_model_data": 360 }, "model": "sparklypower:item/backpack/villager_reborn_blue" },
-    { "predicate": { "custom_model_data": 361 }, "model": "sparklypower:item/backpack/villager_reborn_pink" }
+    { "predicate": { "custom_model_data": 359 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_special_full" },
+    { "predicate": { "custom_model_data": 360 }, "model": "sparklypower:item/villager_reborn/villager_reborn_blue" },
+    { "predicate": { "custom_model_data": 361 }, "model": "sparklypower:item/villager_reborn/villager_reborn_pink" }
   ]
 }
