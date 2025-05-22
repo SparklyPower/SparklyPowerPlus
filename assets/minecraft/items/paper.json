@@ -2508,6 +2508,20 @@
                     "type": "model",
                     "model": "sparklypower:item/backpack/backpack_sticker_rarity_special_full"
                 }
+            },
+            {
+                "threshold": 360,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/villager_reborn/villager_reborn_blue"
+                }
+            },
+            {
+                "threshold": 361,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/villager_reborn/villager_reborn_pink"
+                }
             }
         ],
         "fallback": {

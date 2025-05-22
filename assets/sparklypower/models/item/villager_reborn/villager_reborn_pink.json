@@ -1,0 +1,7 @@
+{
+	"parent": "sparklypower:item/villager_reborn/villager_reborn",
+	"textures": {
+		"0": "sparklypower:item/villager_reborn/villager_reborn_pink",
+		"particle": "sparklypower:item/villager_reborn/villager_reborn_pink"
+	}
+}
