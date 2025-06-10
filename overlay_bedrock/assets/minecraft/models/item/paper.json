@@ -373,6 +373,11 @@
     { "predicate": { "custom_model_data": 358 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_legendary_full" },
     { "predicate": { "custom_model_data": 359 }, "model": "sparklypower:item/backpack/backpack_sticker_rarity_special_full" },
     { "predicate": { "custom_model_data": 360 }, "model": "sparklypower:item/villager_reborn/villager_reborn_blue" },
-    { "predicate": { "custom_model_data": 361 }, "model": "sparklypower:item/villager_reborn/villager_reborn_pink" }
+    { "predicate": { "custom_model_data": 361 }, "model": "sparklypower:item/villager_reborn/villager_reborn_pink" },
+    { "predicate": { "custom_model_data": 362 }, "model": "sparklypower:item/witch_hats/witch_hat_blue" },
+    { "predicate": { "custom_model_data": 363 }, "model": "sparklypower:item/witch_hats/witch_hat_purple" },
+    { "predicate": { "custom_model_data": 364 }, "model": "sparklypower:item/witch_hats/witch_hat_red" },
+    { "predicate": { "custom_model_data": 365 }, "model": "sparklypower:item/witch_hats/witch_hat_black" },
+    { "predicate": { "custom_model_data": 366 }, "model": "item/custom/plushies/ralsei_light" }
   ]
 }
