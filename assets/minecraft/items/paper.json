@@ -2522,6 +2522,41 @@
                     "type": "model",
                     "model": "sparklypower:item/villager_reborn/villager_reborn_pink"
                 }
+            },
+            {
+                "threshold": 362,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/witch_hats/witch_hat_blue"
+                }
+            },
+            {
+                "threshold": 363,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/witch_hats/witch_hat_purple"
+                }
+            },
+            {
+                "threshold": 364,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/witch_hats/witch_hat_red"
+                }
+            },
+            {
+                "threshold": 365,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/witch_hats/witch_hat_black"
+                }
+            },
+            {
+                "threshold": 366,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/plushies/ralsei_light"
+                }
             }
         ],
         "fallback": {
