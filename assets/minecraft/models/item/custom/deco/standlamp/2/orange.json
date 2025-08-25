@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/deco/standing_lamp2",
+	"textures": {
+		"0": "item/deco/lamp/big/orange"
+	}
+}

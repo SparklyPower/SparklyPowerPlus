@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/deco/monitor2",
+	"textures": {
+		"0": "item/deco/monitor/gray"
+	}
+}
