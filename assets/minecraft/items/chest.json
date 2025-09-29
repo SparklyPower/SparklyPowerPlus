@@ -37,6 +37,13 @@
                     "type": "model",
                     "model": "sparklypower:item/secret_chests/secret_chest5"
                 }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/secret_chests/super_secret_chest"
+                }
             }
         ],
         "fallback": {
