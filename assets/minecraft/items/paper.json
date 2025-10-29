@@ -2558,6 +2558,62 @@
                     "type": "model",
                     "model": "item/custom/plushies/ralsei_light"
                 }
+            },
+            {
+                "threshold": 367,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_halloween_bat"
+                }
+            },
+            {
+                "threshold": 368,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_halloween_bat_full"
+                }
+            },
+            {
+                "threshold": 369,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_halloween_ghost"
+                }
+            },
+            {
+                "threshold": 370,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_halloween_ghost_full"
+                }
+            },
+            {
+                "threshold": 371,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_halloween_pumpkin"
+                }
+            },
+            {
+                "threshold": 372,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_halloween_pumpkin_full"
+                }
+            },
+            {
+                "threshold": 373,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_halloween_witch"
+                }
+            },
+            {
+                "threshold": 374,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_halloween_witch_full"
+                }
             }
         ],
         "fallback": {
