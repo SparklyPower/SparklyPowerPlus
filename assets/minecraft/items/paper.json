@@ -2614,6 +2614,20 @@
                     "type": "model",
                     "model": "sparklypower:item/backpack/backpack_halloween_witch_full"
                 }
+            },
+            {
+                "threshold": 375,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/pumpkin_bucket"
+                }
+            },
+            {
+                "threshold": 376,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/pumpkin_hat"
+                }
             }
         ],
         "fallback": {
