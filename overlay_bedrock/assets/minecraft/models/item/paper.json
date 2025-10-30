@@ -378,6 +378,16 @@
     { "predicate": { "custom_model_data": 363 }, "model": "sparklypower:item/witch_hats/witch_hat_purple" },
     { "predicate": { "custom_model_data": 364 }, "model": "sparklypower:item/witch_hats/witch_hat_red" },
     { "predicate": { "custom_model_data": 365 }, "model": "sparklypower:item/witch_hats/witch_hat_black" },
-    { "predicate": { "custom_model_data": 366 }, "model": "item/custom/plushies/ralsei_light" }
+    { "predicate": { "custom_model_data": 366 }, "model": "item/custom/plushies/ralsei_light" },
+    { "predicate": { "custom_model_data": 367 }, "model": "sparklypower:item/backpack/backpack_halloween_bat" },
+    { "predicate": { "custom_model_data": 368 }, "model": "sparklypower:item/backpack/backpack_halloween_bat_full" },
+    { "predicate": { "custom_model_data": 369 }, "model": "sparklypower:item/backpack/backpack_halloween_ghost" },
+    { "predicate": { "custom_model_data": 370 }, "model": "sparklypower:item/backpack/backpack_halloween_ghost_full" },
+    { "predicate": { "custom_model_data": 371 }, "model": "sparklypower:item/backpack/backpack_halloween_pumpkin" },
+    { "predicate": { "custom_model_data": 372 }, "model": "sparklypower:item/backpack/backpack_halloween_pumpkin_full" },
+    { "predicate": { "custom_model_data": 373 }, "model": "sparklypower:item/backpack/backpack_halloween_witch" },
+    { "predicate": { "custom_model_data": 374 }, "model": "sparklypower:item/backpack/backpack_halloween_witch_full" },
+    { "predicate": { "custom_model_data": 375 }, "model": "sparklypower:item/pumpkin_bucket" },
+    { "predicate": { "custom_model_data": 376 }, "model": "sparklypower:item/pumpkin_hat" }
   ]
 }
