@@ -388,6 +388,14 @@
     { "predicate": { "custom_model_data": 373 }, "model": "sparklypower:item/backpack/backpack_halloween_witch" },
     { "predicate": { "custom_model_data": 374 }, "model": "sparklypower:item/backpack/backpack_halloween_witch_full" },
     { "predicate": { "custom_model_data": 375 }, "model": "sparklypower:item/pumpkin_bucket" },
-    { "predicate": { "custom_model_data": 376 }, "model": "sparklypower:item/pumpkin_hat" }
+    { "predicate": { "custom_model_data": 376 }, "model": "sparklypower:item/pumpkin_hat" },
+    { "predicate": { "custom_model_data": 377 }, "model": "sparklypower:item/backpack/backpack_christmas_hat" },
+    { "predicate": { "custom_model_data": 378 }, "model": "sparklypower:item/backpack/backpack_christmas_hat_full" },
+    { "predicate": { "custom_model_data": 379 }, "model": "sparklypower:item/backpack/backpack_christmas_snow" },
+    { "predicate": { "custom_model_data": 380 }, "model": "sparklypower:item/backpack/backpack_christmas_snow_full" },
+    { "predicate": { "custom_model_data": 381 }, "model": "sparklypower:item/backpack/backpack_christmas_tree" },
+    { "predicate": { "custom_model_data": 382 }, "model": "sparklypower:item/backpack/backpack_christmas_tree_full" },
+    { "predicate": { "custom_model_data": 383 }, "model": "sparklypower:item/santa_beard" },
+    { "predicate": { "custom_model_data": 384 }, "model": "sparklypower:item/loritta_cookie" }
   ]
 }

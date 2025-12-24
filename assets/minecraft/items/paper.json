@@ -2628,6 +2628,62 @@
                     "type": "model",
                     "model": "sparklypower:item/pumpkin_hat"
                 }
+            },
+            {
+                "threshold": 377,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_christmas_hat"
+                }
+            },
+            {
+                "threshold": 378,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_christmas_hat_full"
+                }
+            },
+            {
+                "threshold": 379,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_christmas_snow"
+                }
+            },
+            {
+                "threshold": 380,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_christmas_snow_full"
+                }
+            },
+            {
+                "threshold": 381,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_christmas_tree"
+                }
+            },
+            {
+                "threshold": 382,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/backpack/backpack_christmas_tree_full"
+                }
+            },
+            {
+                "threshold": 383,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/santa_beard"
+                }
+            },
+            {
+                "threshold": 384,
+                "model": {
+                    "type": "model",
+                    "model": "sparklypower:item/loritta_cookie"
+                }
             }
         ],
         "fallback": {
